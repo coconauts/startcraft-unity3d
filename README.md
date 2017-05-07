@@ -1,6 +1,6 @@
 A recreation of the classic Starcraft game by Blizzard, on Unity3D.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MqGj5grWYG8" frameborder="0" allowfullscreen></iframe>
+[![Gameplay video](https://img.youtube.com/vi/MqGj5grWYG8/0.jpg)](https://www.youtube.com/watch?v=MqGj5grWYG8)
 
 See [project page](http://coconauts.net/projects/starcraft-unity3d/) for more details.
 
