@@ -1,0 +1,2537 @@
+fileFormatVersion: 2
+guid: 56947771308444fb293543ebed287466
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_Object
+    100002: BoneArmL
+    100004: BoneArmR
+    100006: BoneCalfL
+    100008: BoneCalfR
+    100010: BoneFootL
+    100012: BoneFootR
+    100014: BoneForeArmL
+    100016: BoneForeArmR
+    100018: BoneHandL
+    100020: BoneHandR
+    100022: BoneHead
+    100024: BoneHead_0
+    100026: BoneHipL
+    100028: BoneHipR
+    100030: BoneLegL
+    100032: BoneLegR
+    100034: BoneShoulderL
+    100036: BoneShoulderR
+    100038: BoneSpine01
+    100040: BoneSpine02
+    100042: BoneWaist
+    100044: HitTestFuzzy
+    100046: HitTestFuzzy01
+    100048: HitTestTight
+    100050: Main
+    100052: //RootNode
+    100054: MarineMesh
+    100056: Mesh
+    100058: Ref_Center
+    100060: Ref_HardPoint
+    100062: Ref_Hardpoint_01
+    100064: Ref_Hardpoint_02
+    100066: Ref_Head
+    100068: Ref_Origin
+    100070: Ref_Overhead
+    100072: Ref_Weapon
+    100074: Ref_Weapon_02
+    100076: Root
+    100078: Star2Omni03
+    100080: Star2Omni04
+    100082: Star2Omni05
+    100084: Star2Part01Bloodpool1
+    100086: Star2Part23main
+    100088: Star2Part25
+    100090: Star2Part26sparks
+    100092: Star2Part29gooey
+    100094: Star2Part29headshot
+    100096: Vol_Target
+    400000: Armature_Object
+    400002: BoneArmL
+    400004: BoneArmR
+    400006: BoneCalfL
+    400008: BoneCalfR
+    400010: BoneFootL
+    400012: BoneFootR
+    400014: BoneForeArmL
+    400016: BoneForeArmR
+    400018: BoneHandL
+    400020: BoneHandR
+    400022: BoneHead
+    400024: BoneHead_0
+    400026: BoneHipL
+    400028: BoneHipR
+    400030: BoneLegL
+    400032: BoneLegR
+    400034: BoneShoulderL
+    400036: BoneShoulderR
+    400038: BoneSpine01
+    400040: BoneSpine02
+    400042: BoneWaist
+    400044: HitTestFuzzy
+    400046: HitTestFuzzy01
+    400048: HitTestTight
+    400050: Main
+    400052: //RootNode
+    400054: MarineMesh
+    400056: Mesh
+    400058: Ref_Center
+    400060: Ref_HardPoint
+    400062: Ref_Hardpoint_01
+    400064: Ref_Hardpoint_02
+    400066: Ref_Head
+    400068: Ref_Origin
+    400070: Ref_Overhead
+    400072: Ref_Weapon
+    400074: Ref_Weapon_02
+    400076: Root
+    400078: Star2Omni03
+    400080: Star2Omni04
+    400082: Star2Omni05
+    400084: Star2Part01Bloodpool1
+    400086: Star2Part23main
+    400088: Star2Part25
+    400090: Star2Part26sparks
+    400092: Star2Part29gooey
+    400094: Star2Part29headshot
+    400096: Vol_Target
+    4300000: Mesh
+    4300002: BoneHead
+    7400000: Default Take
+    7400002: Armature_ObjectAttack
+    7400004: Armature_ObjectAttack_01
+    7400006: Armature_ObjectDeath
+    7400008: Armature_ObjectDeath_01
+    7400010: Armature_ObjectDeath_02
+    7400012: Armature_ObjectFidget
+    7400014: Armature_ObjectSpell
+    7400016: Armature_ObjectStand
+    7400018: Armature_ObjectStand_01
+    7400020: Armature_ObjectStand_Left
+    7400022: Armature_ObjectStand_Left_Ready
+    7400024: Armature_ObjectStand_Ready
+    7400026: Armature_ObjectStand_Right
+    7400028: Armature_ObjectStand_Right_Ready
+    7400030: Armature_ObjectUnload
+    7400032: Armature_ObjectUnload_End
+    7400034: Armature_ObjectWalk
+    7400036: DEFAULTS_FOR_Armature_Object
+    9500000: //RootNode
+    13700000: BoneHead
+    13700002: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack
+      takeName: Armature_ObjectAttack
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_01
+      takeName: Armature_ObjectAttack_01
+      firstFrame: -1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectDeath
+      takeName: Armature_ObjectDeath
+      firstFrame: -1
+      lastFrame: 699
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectDeath_01
+      takeName: Armature_ObjectDeath_01
+      firstFrame: -1
+      lastFrame: 179
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectDeath_02
+      takeName: Armature_ObjectDeath_02
+      firstFrame: -1
+      lastFrame: 1129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectFidget
+      takeName: Armature_ObjectFidget
+      firstFrame: -1
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectSpell
+      takeName: Armature_ObjectSpell
+      firstFrame: -1
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand
+      takeName: Armature_ObjectStand
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_01
+      takeName: Armature_ObjectStand_01
+      firstFrame: -1
+      lastFrame: 1599
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Left
+      takeName: Armature_ObjectStand_Left
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Left_Ready
+      takeName: Armature_ObjectStand_Left_Ready
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Ready
+      takeName: Armature_ObjectStand_Ready
+      firstFrame: -1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Right
+      takeName: Armature_ObjectStand_Right
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Right_Ready
+      takeName: Armature_ObjectStand_Right_Ready
+      firstFrame: -1
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload
+      takeName: Armature_ObjectUnload
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload_End
+      takeName: Armature_ObjectUnload_End
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk
+      takeName: Armature_ObjectWalk
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DEFAULTS_FOR_Armature_Object
+      takeName: DEFAULTS_FOR_Armature_Object
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Main
+        weight: 1
+      - path: Armature_Object/Main/Root
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneHead_0/Ref_Head
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/BoneArmL/BoneForeArmL/BoneHandL/Ref_Weapon_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderL/Ref_Hardpoint_01
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Hardpoint_02
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni03
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni04
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/BoneShoulderR/BoneArmR/BoneForeArmR/BoneHandR/Star2Omni05
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/BoneSpine02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part23main
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part25
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part26sparks
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneSpine01/Star2Part29gooey
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipL/BoneLegL/BoneCalfL/BoneFootL
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/BoneLegR/BoneCalfR/BoneFootR
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/BoneHipR/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Main/Root/BoneWaist/HitTestTight
+        weight: 1
+      - path: Armature_Object/Main/Root/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/MarineMesh
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Star2Part01Bloodpool1
+        weight: 1
+      - path: Armature_Object/Star2Part29headshot
+        weight: 1
+      - path: BoneHead
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

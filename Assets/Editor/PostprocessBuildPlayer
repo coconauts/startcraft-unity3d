@@ -1,0 +1,48 @@
+#!/usr/bin/python
+
+import os, sys
+import subprocess
+from subprocess import call
+
+debug = True
+
+if debug:
+  debugFile = open("/tmp/postprocessbuildplayer.log", "w+")
+  debugFile.write(str(sys.argv) + "\n")
+
+argv = sys.argv
+
+if debug:
+  debugFile.write('a buscar archivos...')
+
+if len(sys.argv) < 8:
+  print "Not enough arguments to proceed. Exiting\n"
+  sys.exit(0)
+
+scriptName    = sys.argv[0]
+installPath   = sys.argv[1]
+player        = sys.argv[2]
+optimization  = sys.argv[3]
+companyName   = sys.argv[4]
+productName   = sys.argv[5]
+width         = sys.argv[6]
+height        = sys.argv[7]
+
+editorFolder  = os.path.split(scriptName)[0]
+fileList      = os.listdir(editorFolder)
+print editorFolder
+print fileList
+
+for f in fileList:
+  if f.lower().startswith('postprocessbuildplayer_') and not f.lower().endswith('.meta'):
+		print "\n= = = = = Executing {0} = = = = =".format(f)
+		argv[0] = os.path.join(editorFolder, f)
+		retcode = call(argv)
+		if retcode and debug:
+			debugFile.write("{0} returned with code {1}".format(f,retcode))
+			debugFile.write("I recommend you...")
+			debugFile.write("python {0}".format(str(sys.argv)))
+		print "= = = = = Finished = = = = =\n"
+
+if debug:
+  debugFile.close()

@@ -1,0 +1,1850 @@
+fileFormatVersion: 2
+guid: e2c9195a7b9b248189c6c9b60f5250bf
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_Object
+    100002: Bone_Body01
+    100004: Bone_Jaw
+    100006: Bone_spike01
+    100008: Bone_spike02
+    100010: Bone_spike03
+    100012: Bone_spike04
+    100014: FlapLBone01
+    100016: FlapLBone02
+    100018: FlapLBone03
+    100020: FlapLBone04
+    100022: FlapRBone01
+    100024: FlapRBone02
+    100026: FlapRBone03
+    100028: FlapRBone04
+    100030: HeadBone
+    100032: HitTestFuzzy
+    100034: HitTestFuzzy01
+    100036: HitTestFuzzy02
+    100038: HitTestFuzzy03
+    100040: HitTestFuzzy04
+    100042: HitTestTight
+    100044: Mesh
+    100046: //RootNode
+    100048: Mutalisk_Body
+    100050: NeckBone
+    100052: Ref_Center
+    100054: Ref_Head
+    100056: Ref_Origin
+    100058: Ref_Overhead
+    100060: Ref_Weapon_Bottom
+    100062: RootDummy
+    100064: TailBox01
+    100066: TailBox02
+    100068: TailBox03
+    100070: TailBox04
+    100072: TailBox05
+    100074: Vol_Target
+    100076: Vol_Target_01
+    100078: Vol_Target_02
+    100080: Vol_Target_03
+    100082: WingLBone01
+    100084: WingLBone02
+    100086: WingLBone03
+    100088: WingRBone01
+    100090: WingRBone02
+    100092: WingRBone03
+    400000: Armature_Object
+    400002: Bone_Body01
+    400004: Bone_Jaw
+    400006: Bone_spike01
+    400008: Bone_spike02
+    400010: Bone_spike03
+    400012: Bone_spike04
+    400014: FlapLBone01
+    400016: FlapLBone02
+    400018: FlapLBone03
+    400020: FlapLBone04
+    400022: FlapRBone01
+    400024: FlapRBone02
+    400026: FlapRBone03
+    400028: FlapRBone04
+    400030: HeadBone
+    400032: HitTestFuzzy
+    400034: HitTestFuzzy01
+    400036: HitTestFuzzy02
+    400038: HitTestFuzzy03
+    400040: HitTestFuzzy04
+    400042: HitTestTight
+    400044: Mesh
+    400046: //RootNode
+    400048: Mutalisk_Body
+    400050: NeckBone
+    400052: Ref_Center
+    400054: Ref_Head
+    400056: Ref_Origin
+    400058: Ref_Overhead
+    400060: Ref_Weapon_Bottom
+    400062: RootDummy
+    400064: TailBox01
+    400066: TailBox02
+    400068: TailBox03
+    400070: TailBox04
+    400072: TailBox05
+    400074: Vol_Target
+    400076: Vol_Target_01
+    400078: Vol_Target_02
+    400080: Vol_Target_03
+    400082: WingLBone01
+    400084: WingLBone02
+    400086: WingLBone03
+    400088: WingRBone01
+    400090: WingRBone02
+    400092: WingRBone03
+    4300000: Mesh
+    7400000: Default Take
+    7400002: Armature_ObjectAttack
+    7400004: Armature_ObjectBirth
+    7400006: Armature_ObjectStand
+    7400008: Armature_ObjectStand_01
+    7400010: Armature_ObjectStand_02
+    7400012: Armature_ObjectWalk
+    7400014: Armature_ObjectWalk_01
+    7400016: Armature_ObjectWalk_End
+    7400018: Armature_ObjectWalk_End_01
+    7400020: Armature_ObjectWalk_End_02
+    7400022: Armature_ObjectWalk_Start
+    7400024: Armature_ObjectWalk_Start_01
+    7400026: DEFAULTS_FOR_Armature_Object
+    9500000: //RootNode
+    13700000: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack
+      takeName: Armature_ObjectAttack
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectBirth
+      takeName: Armature_ObjectBirth
+      firstFrame: -1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand
+      takeName: Armature_ObjectStand
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_01
+      takeName: Armature_ObjectStand_01
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_02
+      takeName: Armature_ObjectStand_02
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk
+      takeName: Armature_ObjectWalk
+      firstFrame: -1
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_01
+      takeName: Armature_ObjectWalk_01
+      firstFrame: -1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_End
+      takeName: Armature_ObjectWalk_End
+      firstFrame: -1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_End_01
+      takeName: Armature_ObjectWalk_End_01
+      firstFrame: -1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_End_02
+      takeName: Armature_ObjectWalk_End_02
+      firstFrame: -1
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_Start
+      takeName: Armature_ObjectWalk_Start
+      firstFrame: -1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_Start_01
+      takeName: Armature_ObjectWalk_Start_01
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DEFAULTS_FOR_Armature_Object
+      takeName: DEFAULTS_FOR_Armature_Object
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Mutalisk_Body
+        weight: 1
+      - path: Armature_Object/Ref_Center
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/RootDummy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike02
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike03
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Bone_spike04
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/TailBox05/Ref_Weapon_Bottom
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/TailBox01/TailBox02/TailBox03/TailBox04/Vol_Target_01
+        weight: 1
+      - path: Armature_Object/RootDummy/Bone_Body01/Vol_Target
+        weight: 1
+      - path: Armature_Object/RootDummy/HitTestTight
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Bone_Jaw
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HeadBone/Ref_Head
+        weight: 1
+      - path: Armature_Object/RootDummy/NeckBone/HitTestFuzzy04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/FlapLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/FlapLBone03/Vol_Target_02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingLBone01/WingLBone02/WingLBone03/FlapLBone04
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone01
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/FlapRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/FlapRBone03/Vol_Target_03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03
+        weight: 1
+      - path: Armature_Object/RootDummy/WingRBone01/WingRBone02/WingRBone03/FlapRBone04
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

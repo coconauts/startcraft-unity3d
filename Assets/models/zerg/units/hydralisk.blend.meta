@@ -1,0 +1,3412 @@
+fileFormatVersion: 2
+guid: b0b4d99515ad8451a92f68916c5cc693
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_Object
+    100002: ArmLft
+    100004: ArmRT
+    100006: Dummy01
+    100008: Dummy03
+    100010: Dummy10
+    100012: ForeArmLft
+    100014: ForeArmRt
+    100016: HandLft
+    100018: HandRt
+    100020: Head
+    100022: HitTestFuzzy
+    100024: HitTestFuzzy01
+    100026: HitTestFuzzy02
+    100028: HitTestFuzzy03
+    100030: HitTestTight
+    100032: //RootNode
+    100034: Jaw
+    100036: Karapis_Bone01
+    100038: Karapis_Bone02
+    100040: Mesh
+    100042: Neck01
+    100044: Neck02
+    100046: Ref_Center
+    100048: Ref_HardPoint
+    100050: Ref_Head
+    100052: Ref_Origin
+    100054: Ref_Overhead
+    100056: Ref_Weapon
+    100058: Ref_Weapon_Left
+    100060: Ref_Weapon_Right
+    100062: Root
+    100064: ShoulderLft
+    100066: ShoulderRt
+    100068: Spikes
+    100070: Spikes_0
+    100072: SpineUp01
+    100074: SpineUp02
+    100076: SpineUp03
+    100078: Tail01
+    100080: Tail02
+    100082: Tail03
+    100084: Tail04
+    100086: Tail05
+    100088: Tail06
+    100090: TailTIP
+    100092: Unit_Zerg_Hydralisk_Crest
+    100094: Unit_Zerg_Hydralisk_Jaw_03
+    100096: Vol_Target
+    400000: Armature_Object
+    400002: ArmLft
+    400004: ArmRT
+    400006: Dummy01
+    400008: Dummy03
+    400010: Dummy10
+    400012: ForeArmLft
+    400014: ForeArmRt
+    400016: HandLft
+    400018: HandRt
+    400020: Head
+    400022: HitTestFuzzy
+    400024: HitTestFuzzy01
+    400026: HitTestFuzzy02
+    400028: HitTestFuzzy03
+    400030: HitTestTight
+    400032: //RootNode
+    400034: Jaw
+    400036: Karapis_Bone01
+    400038: Karapis_Bone02
+    400040: Mesh
+    400042: Neck01
+    400044: Neck02
+    400046: Ref_Center
+    400048: Ref_HardPoint
+    400050: Ref_Head
+    400052: Ref_Origin
+    400054: Ref_Overhead
+    400056: Ref_Weapon
+    400058: Ref_Weapon_Left
+    400060: Ref_Weapon_Right
+    400062: Root
+    400064: ShoulderLft
+    400066: ShoulderRt
+    400068: Spikes
+    400070: Spikes_0
+    400072: SpineUp01
+    400074: SpineUp02
+    400076: SpineUp03
+    400078: Tail01
+    400080: Tail02
+    400082: Tail03
+    400084: Tail04
+    400086: Tail05
+    400088: Tail06
+    400090: TailTIP
+    400092: Unit_Zerg_Hydralisk_Crest
+    400094: Unit_Zerg_Hydralisk_Jaw_03
+    400096: Vol_Target
+    4300000: Mesh
+    4300002: Spikes
+    7400000: Default Take
+    7400002: Armature_ObjectAttack
+    7400004: Armature_ObjectAttack_01
+    7400006: Armature_ObjectAttack_Cover
+    7400008: Armature_ObjectAttack_Cover_01
+    7400010: Armature_ObjectAttack_Inferior
+    7400012: Armature_ObjectAttack_Superior
+    7400014: Armature_ObjectBurrow
+    7400016: Armature_ObjectFidget
+    7400018: Armature_ObjectFidget_01
+    7400020: Armature_ObjectStand
+    7400022: Armature_ObjectStand_02
+    7400024: Armature_ObjectStand_03
+    7400026: Armature_ObjectStand_Dance
+    7400028: Armature_ObjectStand_Dance_01
+    7400030: Armature_ObjectStand_Left
+    7400032: Armature_ObjectStand_Right
+    7400034: Armature_ObjectStand_Victory
+    7400036: Armature_ObjectStand_Victory_01
+    7400038: Armature_ObjectStand_Work_End
+    7400040: Armature_ObjectUnburrow
+    7400042: Armature_ObjectUnload
+    7400044: Armature_ObjectUnload_End
+    7400046: Armature_ObjectWalk
+    7400048: Armature_ObjectWalk_02
+    7400050: DEFAULTS_FOR_Armature_Object
+    9500000: //RootNode
+    13700000: Mesh
+    13700002: Spikes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack
+      takeName: Armature_ObjectAttack
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_01
+      takeName: Armature_ObjectAttack_01
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_Cover
+      takeName: Armature_ObjectAttack_Cover
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_Cover_01
+      takeName: Armature_ObjectAttack_Cover_01
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_Inferior
+      takeName: Armature_ObjectAttack_Inferior
+      firstFrame: -1
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_Superior
+      takeName: Armature_ObjectAttack_Superior
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectBurrow
+      takeName: Armature_ObjectBurrow
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectFidget
+      takeName: Armature_ObjectFidget
+      firstFrame: -1
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectFidget_01
+      takeName: Armature_ObjectFidget_01
+      firstFrame: -1
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand
+      takeName: Armature_ObjectStand
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_02
+      takeName: Armature_ObjectStand_02
+      firstFrame: -1
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_03
+      takeName: Armature_ObjectStand_03
+      firstFrame: -1
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Dance
+      takeName: Armature_ObjectStand_Dance
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Dance_01
+      takeName: Armature_ObjectStand_Dance_01
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Left
+      takeName: Armature_ObjectStand_Left
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Right
+      takeName: Armature_ObjectStand_Right
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Victory
+      takeName: Armature_ObjectStand_Victory
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Victory_01
+      takeName: Armature_ObjectStand_Victory_01
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Work_End
+      takeName: Armature_ObjectStand_Work_End
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnburrow
+      takeName: Armature_ObjectUnburrow
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload
+      takeName: Armature_ObjectUnload
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload_End
+      takeName: Armature_ObjectUnload_End
+      firstFrame: -1
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk
+      takeName: Armature_ObjectWalk
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk_02
+      takeName: Armature_ObjectWalk_02
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DEFAULTS_FOR_Armature_Object
+      takeName: DEFAULTS_FOR_Armature_Object
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy10
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03
+        weight: 1
+      - path: Armature_Object/Dummy10/Dummy03/Ref_Center
+        weight: 1
+      - path: Armature_Object/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/HitTestTight
+        weight: 1
+      - path: Armature_Object/Ref_HardPoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Root
+        weight: 1
+      - path: Armature_Object/Root/Dummy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Jaw
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Head/Unit_Zerg_Hydralisk_Jaw_03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone01
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Karapis_Bone02
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Head
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Spikes_0
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Unit_Zerg_Hydralisk_Crest
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/Neck01/Neck02/Vol_Target
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderLft/ArmLft/ForeArmLft/HandLft/HitTestFuzzy03
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt
+        weight: 1
+      - path: Armature_Object/Root/Dummy01/SpineUp01/SpineUp02/SpineUp03/ShoulderRt/ArmRT/ForeArmRt/HandRt/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Root/Tail01
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06
+        weight: 1
+      - path: Armature_Object/Root/Tail01/Tail02/Tail03/Tail04/Tail05/Tail06/TailTIP
+        weight: 1
+      - path: Mesh
+        weight: 1
+      - path: Spikes
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

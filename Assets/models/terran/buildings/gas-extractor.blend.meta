@@ -1,0 +1,93 @@
+fileFormatVersion: 2
+guid: 7d19e86b722e8444f935671278632fcf
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AutomatedRefineryDeath_m3
+    100002: AutomatedRefineryDeath_m3_001
+    100004: AutomatedRefineryDeath_m3_002
+    100006: AutomatedRefineryDeath_m3_003
+    100008: AutomatedRefineryDeath_m3_004
+    100010: AutomatedRefineryDeath_m3_005
+    100012: //RootNode
+    400000: AutomatedRefineryDeath_m3
+    400002: AutomatedRefineryDeath_m3_001
+    400004: AutomatedRefineryDeath_m3_002
+    400006: AutomatedRefineryDeath_m3_003
+    400008: AutomatedRefineryDeath_m3_004
+    400010: AutomatedRefineryDeath_m3_005
+    400012: //RootNode
+    2300000: AutomatedRefineryDeath_m3
+    2300002: AutomatedRefineryDeath_m3_001
+    2300004: AutomatedRefineryDeath_m3_002
+    2300006: AutomatedRefineryDeath_m3_003
+    2300008: AutomatedRefineryDeath_m3_004
+    2300010: AutomatedRefineryDeath_m3_005
+    3300000: AutomatedRefineryDeath_m3
+    3300002: AutomatedRefineryDeath_m3_001
+    3300004: AutomatedRefineryDeath_m3_002
+    3300006: AutomatedRefineryDeath_m3_003
+    3300008: AutomatedRefineryDeath_m3_004
+    3300010: AutomatedRefineryDeath_m3_005
+    4300000: AutomatedRefineryDeath_m3_005
+    4300002: AutomatedRefineryDeath_m3_004
+    4300004: AutomatedRefineryDeath_m3_003
+    4300006: AutomatedRefineryDeath_m3_002
+    4300008: AutomatedRefineryDeath_m3_001
+    4300010: AutomatedRefineryDeath_m3
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,45 @@
+#!/usr/bin/python
+
+import os, sys
+import subprocess
+import glob
+import re
+from subprocess import call
+
+argv = sys.argv
+
+if len(sys.argv) < 8:
+  print "Not enough arguments to proceed. Exiting"
+  sys.exit(0)
+
+scriptName                  = sys.argv[0]
+installPath                 = sys.argv[1]
+player                      = sys.argv[2]
+editorFolder                = os.path.split(scriptName)[0]
+assetsFolder                = os.path.split(editorFolder)[0]
+app_controller_helper_path  = os.path.join(installPath, "Libraries/AppControllerHelper.h")
+
+def rewrite_unity_xcode_project(unity_xcode_project_path):
+  #
+  #		Setting GCC Objective C exceptions to TRUE
+  #
+
+  unity_xcode_lines = []
+  # allow objective-c exceptions
+  re_objc_excep = re.compile(r"\s*GCC_ENABLE_OBJC_EXCEPTIONS *= *NO.*")
+  with open(unity_xcode_project_path) as upf:
+    for line in upf:
+      if re_objc_excep.match(line):
+        print "matched line: {0}", re_objc_excep.match(line).group()
+        line = line.replace("NO","YES")
+        print "Objective-c exceptions enabled"
+      unity_xcode_lines.append(line)
+  with open(unity_xcode_project_path, "w+") as upf:
+    upf.writelines(unity_xcode_lines)
+
+if player == 'iPhone':
+  #
+  #   Modifying the XCode project, messy!
+  #
+  pbxProjPath = os.path.join(installPath, "Unity-iPhone.xcodeproj/project.pbxproj")
+  rewrite_unity_xcode_project(pbxProjPath)

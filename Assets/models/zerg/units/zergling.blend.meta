@@ -1,0 +1,2334 @@
+fileFormatVersion: 2
+guid: 0be6d4af3a5d147f49ee38db2d6f0827
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_Object
+    100002: Bone01
+    100004: Bone_Chest
+    100006: Bone_Foot_Left_Front
+    100008: Bone_Foot_Left_Rear
+    100010: Bone_Foot_Left_Rear_01
+    100012: Bone_Foot_Right_Front
+    100014: Bone_Foot_Right_Rear
+    100016: Bone_Foot_Right_Rear_01
+    100018: Bone_Head
+    100020: Bone_Leg_Left_Front
+    100022: Bone_Leg_Left_Front_01
+    100024: Bone_Leg_Left_Rear
+    100026: Bone_Leg_Left_Rear_01
+    100028: Bone_Leg_Left_Rear_02
+    100030: Bone_Leg_Right_Front
+    100032: Bone_Leg_Right_Front_01
+    100034: Bone_Leg_Right_Rear
+    100036: Bone_Leg_Right_Rear_01
+    100038: Bone_Leg_Right_Rear_02
+    100040: Bone_Pelvis
+    100042: Bone_Tail
+    100044: Bone_Tail_01
+    100046: Bone_Tail_02
+    100048: Bone_Tail_03
+    100050: BoneStockL01
+    100052: BoneStockL02
+    100054: BoneStockL03
+    100056: BoneStockR01
+    100058: BoneStockR02
+    100060: BoneStockR03
+    100062: Dummy01
+    100064: HitTestFuzzy
+    100066: HitTestFuzzy01
+    100068: HitTestFuzzy02
+    100070: HitTestTight
+    100072: Mesh
+    100074: Ref_Center
+    100076: Ref_Hardpoint
+    100078: Ref_Head
+    100080: Ref_Origin
+    100082: Ref_Overhead
+    100084: Ref_Weapon_Left
+    100086: Ref_Weapon_Right
+    100088: Unit_Zerg_Zergling_Konker_02
+    100090: Vol_Target
+    100092: //RootNode
+    400000: Armature_Object
+    400002: Bone01
+    400004: Bone_Chest
+    400006: Bone_Foot_Left_Front
+    400008: Bone_Foot_Left_Rear
+    400010: Bone_Foot_Left_Rear_01
+    400012: Bone_Foot_Right_Front
+    400014: Bone_Foot_Right_Rear
+    400016: Bone_Foot_Right_Rear_01
+    400018: Bone_Head
+    400020: Bone_Leg_Left_Front
+    400022: Bone_Leg_Left_Front_01
+    400024: Bone_Leg_Left_Rear
+    400026: Bone_Leg_Left_Rear_01
+    400028: Bone_Leg_Left_Rear_02
+    400030: Bone_Leg_Right_Front
+    400032: Bone_Leg_Right_Front_01
+    400034: Bone_Leg_Right_Rear
+    400036: Bone_Leg_Right_Rear_01
+    400038: Bone_Leg_Right_Rear_02
+    400040: Bone_Pelvis
+    400042: Bone_Tail
+    400044: Bone_Tail_01
+    400046: Bone_Tail_02
+    400048: Bone_Tail_03
+    400050: BoneStockL01
+    400052: BoneStockL02
+    400054: BoneStockL03
+    400056: BoneStockR01
+    400058: BoneStockR02
+    400060: BoneStockR03
+    400062: Dummy01
+    400064: HitTestFuzzy
+    400066: HitTestFuzzy01
+    400068: HitTestFuzzy02
+    400070: HitTestTight
+    400072: Mesh
+    400074: Ref_Center
+    400076: Ref_Hardpoint
+    400078: Ref_Head
+    400080: Ref_Origin
+    400082: Ref_Overhead
+    400084: Ref_Weapon_Left
+    400086: Ref_Weapon_Right
+    400088: Unit_Zerg_Zergling_Konker_02
+    400090: Vol_Target
+    400092: //RootNode
+    4300000: Mesh
+    7400000: Default Take
+    7400002: Armature_ObjectAttack
+    7400004: Armature_ObjectAttack_01
+    7400006: Armature_ObjectAttack_02
+    7400008: Armature_ObjectBurrow
+    7400010: Armature_ObjectFidget
+    7400012: Armature_ObjectStand
+    7400014: Armature_ObjectStand_01
+    7400016: Armature_ObjectStand_Dance
+    7400018: Armature_ObjectStand_Left
+    7400020: Armature_ObjectStand_Morph_Start
+    7400022: Armature_ObjectStand_Right
+    7400024: Armature_ObjectStand_Victory
+    7400026: Armature_ObjectUnburrow
+    7400028: Armature_ObjectUnload
+    7400030: Armature_ObjectUnload_End
+    7400032: Armature_ObjectWalk
+    7400034: DEFAULTS_FOR_Armature_Object
+    9500000: //RootNode
+    13700000: Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack
+      takeName: Armature_ObjectAttack
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_01
+      takeName: Armature_ObjectAttack_01
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectAttack_02
+      takeName: Armature_ObjectAttack_02
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectBurrow
+      takeName: Armature_ObjectBurrow
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectFidget
+      takeName: Armature_ObjectFidget
+      firstFrame: -1
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand
+      takeName: Armature_ObjectStand
+      firstFrame: -1
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_01
+      takeName: Armature_ObjectStand_01
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Dance
+      takeName: Armature_ObjectStand_Dance
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Left
+      takeName: Armature_ObjectStand_Left
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Morph_Start
+      takeName: Armature_ObjectStand_Morph_Start
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Right
+      takeName: Armature_ObjectStand_Right
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectStand_Victory
+      takeName: Armature_ObjectStand_Victory
+      firstFrame: -1
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnburrow
+      takeName: Armature_ObjectUnburrow
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload
+      takeName: Armature_ObjectUnload
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectUnload_End
+      takeName: Armature_ObjectUnload_End
+      firstFrame: -1
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Armature_ObjectWalk
+      takeName: Armature_ObjectWalk
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: DEFAULTS_FOR_Armature_Object
+      takeName: DEFAULTS_FOR_Armature_Object
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_Object
+        weight: 1
+      - path: Armature_Object/Dummy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Head/Ref_Head
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Left_Front/Bone_Leg_Left_Front_01/Bone_Foot_Left_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Chest/Bone_Leg_Right_Front/Bone_Leg_Right_Front_01/Bone_Foot_Right_Front
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Left_Rear/Bone_Leg_Left_Rear_01/Bone_Leg_Left_Rear_02/Bone_Foot_Left_Rear/Bone_Foot_Left_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Leg_Right_Rear/Bone_Leg_Right_Rear_01/Bone_Leg_Right_Rear_02/Bone_Foot_Right_Rear/Bone_Foot_Right_Rear_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Bone_Tail/Bone_Tail_01/Bone_Tail_02/Bone_Tail_03/Bone01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/BoneStockL03/Ref_Weapon_Left
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockL01/BoneStockL02/HitTestFuzzy01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/BoneStockR03/Ref_Weapon_Right
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/BoneStockR01/BoneStockR02/HitTestFuzzy02
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestFuzzy
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/HitTestTight
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Ref_Center
+        weight: 1
+      - path: Armature_Object/Dummy01/Bone_Pelvis/Vol_Target
+        weight: 1
+      - path: Armature_Object/Ref_Hardpoint
+        weight: 1
+      - path: Armature_Object/Ref_Origin
+        weight: 1
+      - path: Armature_Object/Ref_Overhead
+        weight: 1
+      - path: Armature_Object/Unit_Zerg_Zergling_Konker_02
+        weight: 1
+      - path: Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
