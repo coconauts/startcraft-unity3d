@@ -1315,7 +1315,7 @@ public class AstarPathEditor : Editor {
 		for (int i=0;i<conns.Length;i++) {
 			UserConnection conn = conns[i];
 			
-			int controlID = GUIUtility.GetControlID(i, FocusType.Native);
+			int controlID = GUIUtility.GetControlID(i, FocusType.Passive);
 			
 			if (Event.current.type == EventType.Layout && editLinks) {
 				if (conn.type == ConnectionType.Connection) {
