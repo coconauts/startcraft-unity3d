@@ -1,237 +1,324 @@
-//#define ASTARDEBUG
-#define TUPLE
 #pragma warning disable 162
 #pragma warning disable 429
-using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using Pathfinding;
+#define DECREASE_KEY
 
 namespace Pathfinding {
-//Binary Heap
-	
-	/** Binary heap implementation. Binary heaps are really fast for ordering nodes in a way that makes it possible to get the node with the lowest F score. Also known as a priority queue.
-	 * \see http://en.wikipedia.org/wiki/Binary_heap
-	 */
-	public class BinaryHeapM { 
+	/// <summary>
+	/// Binary heap implementation.
+	/// Binary heaps are really fast for ordering nodes in a way that
+	/// makes it possible to get the node with the lowest F score.
+	/// Also known as a priority queue.
+	///
+	/// This has actually been rewritten as a 4-ary heap
+	/// for performance, but it's the same principle.
+	///
+	/// See: http://en.wikipedia.org/wiki/Binary_heap
+	/// See: https://en.wikipedia.org/wiki/D-ary_heap
+	/// </summary>
+	public class BinaryHeap {
+		/// <summary>Number of items in the tree</summary>
+		public int numberOfItems;
 
-		public int numberOfItems; 
-		
+		/// <summary>The tree will grow by at least this factor every time it is expanded</summary>
 		public float growthFactor = 2;
 
-		public const int D = 4;
+		/// <summary>
+		/// Number of children of each node in the tree.
+		/// Different values have been tested and 4 has been empirically found to perform the best.
+		/// See: https://en.wikipedia.org/wiki/D-ary_heap
+		/// </summary>
+		const int D = 4;
 
-		private PathNode[] binaryHeap; 
+		/// <summary>
+		/// Sort nodes by G score if there is a tie when comparing the F score.
+		/// Disabling this will improve pathfinding performance with around 2.5%
+		/// but may break ties between paths that have the same length in a less
+		/// desirable manner (only relevant for grid graphs).
+		/// </summary>
+		const bool SortGScores = true;
 
-		public BinaryHeapM ( int numberOfElements ) { 
-			binaryHeap = new PathNode[numberOfElements]; 
+		public const ushort NotInHeap = 0xFFFF;
+
+		/// <summary>Internal backing array for the heap</summary>
+		private Tuple[] heap;
+
+		/// <summary>True if the heap does not contain any elements</summary>
+		public bool isEmpty {
+			get {
+				return numberOfItems <= 0;
+			}
+		}
+
+		/// <summary>Item in the heap</summary>
+		private struct Tuple {
+			public PathNode node;
+			public uint F;
+
+			public Tuple (uint f, PathNode node) {
+				this.F = f;
+				this.node = node;
+			}
+		}
+
+		/// <summary>
+		/// Rounds up v so that it has remainder 1 when divided by D.
+		/// I.e it is of the form n*D + 1 where n is any non-negative integer.
+		/// </summary>
+		static int RoundUpToNextMultipleMod1 (int v) {
+			// I have a feeling there is a nicer way to do this
+			return v + (4 - ((v-1) % D)) % D;
+		}
+
+		/// <summary>Create a new heap with the specified initial capacity</summary>
+		public BinaryHeap (int capacity) {
+			// Make sure the size has remainder 1 when divided by D
+			// This allows us to always guarantee that indices used in the Remove method
+			// will never throw out of bounds exceptions
+			capacity = RoundUpToNextMultipleMod1(capacity);
+
+			heap = new Tuple[capacity];
 			numberOfItems = 0;
 		}
-		
+
+		/// <summary>Removes all elements from the heap</summary>
 		public void Clear () {
+#if DECREASE_KEY
+			// Clear all heap indices
+			// This is important to avoid bugs
+			for (int i = 0; i < numberOfItems; i++) {
+				heap[i].node.heapIndex = NotInHeap;
+			}
+#endif
+
 			numberOfItems = 0;
 		}
-		
-		public PathNode GetNode (int i) {
-			return binaryHeap[i];
+
+		internal PathNode GetNode (int i) {
+			return heap[i].node;
 		}
 
-		/** Adds a node to the heap */
-		public void Add(PathNode node) {
-			
-			if (node == null) throw new System.ArgumentNullException ("Sending null node to BinaryHeap");
+		internal void SetF (int i, uint f) {
+			heap[i].F = f;
+		}
 
-			if (numberOfItems == binaryHeap.Length) {
-				int newSize = System.Math.Max(binaryHeap.Length+4,(int)System.Math.Round(binaryHeap.Length*growthFactor));
-				if (newSize > 1<<18) {
-					throw new System.Exception ("Binary Heap Size really large (2^18). A heap size this large is probably the cause of pathfinding running in an infinite loop. " +
-						"\nRemove this check (in BinaryHeap.cs) if you are sure that it is not caused by a bug");
-				}
+		/// <summary>Expands to a larger backing array when the current one is too small</summary>
+		void Expand () {
+			// 65533 == 1 mod 4 and slightly smaller than 1<<16 = 65536
+			int newSize = System.Math.Max(heap.Length+4, System.Math.Min(65533, (int)System.Math.Round(heap.Length*growthFactor)));
 
-				PathNode[] tmp = new PathNode[newSize];
+			// Make sure the size has remainder 1 when divided by D
+			// This allows us to always guarantee that indices used in the Remove method
+			// will never throw out of bounds exceptions
+			newSize = RoundUpToNextMultipleMod1(newSize);
 
-				for (int i=0;i<binaryHeap.Length;i++) {
-					tmp[i] = binaryHeap[i];
-				}
-				binaryHeap = tmp;
-				
-				//Debug.Log ("Forced to discard nodes because of binary heap size limit, please consider increasing the size ("+numberOfItems +" "+binaryHeap.Length+")");
-				//numberOfItems--;
+			// Check if the heap is really large
+			// Also note that heaps larger than this are not supported
+			// since PathNode.heapIndex is a ushort and can only store
+			// values up to 65535 (NotInHeap = 65535 is reserved however)
+			if (newSize > (1<<16) - 2) {
+				throw new System.Exception("Binary Heap Size really large (>65534). A heap size this large is probably the cause of pathfinding running in an infinite loop. ");
 			}
 
-			PathNode obj = node;
-			binaryHeap[numberOfItems] = obj;
+			var newHeap = new Tuple[newSize];
+			heap.CopyTo(newHeap, 0);
+#if ASTARDEBUG
+			UnityEngine.Debug.Log("Resizing binary heap to "+newSize);
+#endif
+			heap = newHeap;
+		}
 
-			//node.heapIndex = numberOfItems;//Heap index
+		/// <summary>Adds a node to the heap</summary>
+		public void Add (PathNode node) {
+			if (node == null) throw new System.ArgumentNullException("node");
 
-			int bubbleIndex = numberOfItems;
-			uint nodeF = node.F;
-			//Debug.Log ( "Adding node with " + nodeF + " to index " + numberOfItems);
-			
-			while (bubbleIndex != 0 ) {
+#if DECREASE_KEY
+			// Check if node is already in the heap
+			if (node.heapIndex != NotInHeap) {
+				DecreaseKey(heap[node.heapIndex], node.heapIndex);
+				return;
+			}
+#endif
+
+			if (numberOfItems == heap.Length) {
+				Expand();
+			}
+
+			DecreaseKey(new Tuple(0, node), (ushort)numberOfItems);
+			numberOfItems++;
+		}
+
+		void DecreaseKey (Tuple node, ushort index) {
+			// This is where 'obj' is in the binary heap logically speaking
+			// (for performance reasons we don't actually store it there until
+			// we know the final index, that's just a waste of CPU cycles)
+			int bubbleIndex = index;
+			// Update F value, it might have changed since the node was originally added to the heap
+			uint nodeF = node.F = node.node.F;
+			uint nodeG = node.node.G;
+
+			while (bubbleIndex != 0) {
+				// Parent node of the bubble node
 				int parentIndex = (bubbleIndex-1) / D;
 
-				//Debug.Log ("Testing " + nodeF + " < " + binaryHeap[parentIndex].F);
-
-				if (nodeF < binaryHeap[parentIndex].F) {
-
-				   	
-					//binaryHeap[bubbleIndex].f <= binaryHeap[parentIndex].f) { /* \todo Wouldn't it be more efficient with '<' instead of '<=' ? * /
-					//Node tmpValue = binaryHeap[parentIndex];
-					
-					//tmpValue.heapIndex = bubbleIndex;//HeapIndex
-					
-					binaryHeap[bubbleIndex] = binaryHeap[parentIndex];
-					binaryHeap[parentIndex] = obj;
-					
-					//binaryHeap[bubbleIndex].heapIndex = bubbleIndex; //Heap index
-					//binaryHeap[parentIndex].heapIndex = parentIndex; //Heap index
-					
+				if (nodeF < heap[parentIndex].F || (SortGScores && nodeF == heap[parentIndex].F && nodeG > heap[parentIndex].node.G)) {
+					// Swap the bubble node and parent node
+					// (we don't really need to store the bubble node until we know the final index though
+					// so we do that after the loop instead)
+					heap[bubbleIndex] = heap[parentIndex];
+#if DECREASE_KEY
+					heap[bubbleIndex].node.heapIndex = (ushort)bubbleIndex;
+#endif
 					bubbleIndex = parentIndex;
 				} else {
 					break;
 				}
 			}
 
-			numberOfItems++;
-
-			//Validate();
+			heap[bubbleIndex] = node;
+#if DECREASE_KEY
+			node.node.heapIndex = (ushort)bubbleIndex;
+#endif
 		}
-		
-		/** Returns the node with the lowest F score from the heap */
-		public PathNode Remove() {
+
+		/// <summary>Returns the node with the lowest F score from the heap</summary>
+		public PathNode Remove () {
+			PathNode returnItem = heap[0].node;
+
+#if DECREASE_KEY
+			returnItem.heapIndex = NotInHeap;
+#endif
+
 			numberOfItems--;
-			PathNode returnItem = binaryHeap[0];
+			if (numberOfItems == 0) return returnItem;
 
-		 	//returnItem.heapIndex = 0;//Heap index
-			
-			binaryHeap[0] = binaryHeap[numberOfItems];
-			//binaryHeap[1].heapIndex = 1;//Heap index
-			
-			int swapItem = 0, parent = 0;
-			
-			do {
+			// Last item in the heap array
+			var swapItem = heap[numberOfItems];
+			var swapItemG = swapItem.node.G;
 
-				if (D == 0) {
-					parent = swapItem;
-					int p2 = parent * D;
-					if (p2 + 1 <= numberOfItems) {
-						// Both children exist
-						if (binaryHeap[parent].F > binaryHeap[p2].F) {
-							swapItem = p2;//2 * parent;
-						}
-						if (binaryHeap[swapItem].F > binaryHeap[p2 + 1].F) {
-							swapItem = p2 + 1;
-						}
-					} else if ((p2) <= numberOfItems) {
-						// Only one child exists
-						if (binaryHeap[parent].F > binaryHeap[p2].F) {
-							swapItem = p2;
-						}
+			int swapIndex = 0, parent;
+
+			// Trickle upwards
+			while (true) {
+				parent = swapIndex;
+				uint swapF = swapItem.F;
+				int pd = parent * D + 1;
+
+				// If this holds, then the indices used
+				// below are guaranteed to not throw an index out of bounds
+				// exception since we choose the size of the array in that way
+				if (pd <= numberOfItems) {
+					// Loading all F scores here instead of inside the if statements
+					// reduces data dependencies and improves performance
+					uint f0 = heap[pd+0].F;
+					uint f1 = heap[pd+1].F;
+					uint f2 = heap[pd+2].F;
+					uint f3 = heap[pd+3].F;
+
+					// The common case is that all children of a node are present
+					// so the first comparison in each if statement below
+					// will be extremely well predicted so it is essentially free
+					// (I tried optimizing for the common case, but it didn't affect performance at all
+					// at the expense of longer code, the CPU branch predictor is really good)
+
+					if (pd+0 < numberOfItems && (f0 < swapF || (SortGScores && f0 == swapF && heap[pd+0].node.G < swapItemG))) {
+						swapF = f0;
+						swapIndex = pd+0;
 					}
-				} else {
-					parent = swapItem;
-					uint swapF = binaryHeap[swapItem].F;
-					int pd = parent * D + 1;
-					
-					if (D >= 1 && pd+0 <= numberOfItems && binaryHeap[pd+0].F < swapF ) {
-						swapF = binaryHeap[pd+0].F;
-						swapItem = pd+0;
+
+					if (pd+1 < numberOfItems && (f1 < swapF || (SortGScores && f1 == swapF && heap[pd+1].node.G < (swapIndex == parent ? swapItemG : heap[swapIndex].node.G)))) {
+						swapF = f1;
+						swapIndex = pd+1;
 					}
-					
-					if (D >= 2 && pd+1 <= numberOfItems && binaryHeap[pd+1].F < swapF ) {
-						swapF = binaryHeap[pd+1].F;
-						swapItem = pd+1;
+
+					if (pd+2 < numberOfItems && (f2 < swapF || (SortGScores && f2 == swapF && heap[pd+2].node.G < (swapIndex == parent ? swapItemG : heap[swapIndex].node.G)))) {
+						swapF = f2;
+						swapIndex = pd+2;
 					}
-					
-					if (D >= 3 && pd+2 <= numberOfItems && binaryHeap[pd+2].F < swapF ) {
-						swapF = binaryHeap[pd+2].F;
-						swapItem = pd+2;
-					}
-					
-					if (D >= 4 && pd+3 <= numberOfItems && binaryHeap[pd+3].F < swapF ) {
-						swapF = binaryHeap[pd+3].F;
-						swapItem = pd+3;
-					}
-					
-					if (D >= 5 && pd+4 <= numberOfItems && binaryHeap[pd+4].F < swapF ) {
-						swapF = binaryHeap[pd+4].F;
-						swapItem = pd+4;
-					}
-					
-					if (D >= 6 && pd+5 <= numberOfItems && binaryHeap[pd+5].F < swapF ) {
-						swapF = binaryHeap[pd+5].F;
-						swapItem = pd+5;
-					}
-					
-					if (D >= 7 && pd+6 <= numberOfItems && binaryHeap[pd+6].F < swapF ) {
-						swapF = binaryHeap[pd+6].F;
-						swapItem = pd+6;
-					}
-					
-					if (D >= 8 && pd+7 <= numberOfItems && binaryHeap[pd+7].F < swapF ) {
-						swapF = binaryHeap[pd+7].F;
-						swapItem = pd+7;
-					}
-					
-					if (D >= 9 && pd+8 <= numberOfItems && binaryHeap[pd+8].F < swapF ) {
-						swapF = binaryHeap[pd+8].F;
-						swapItem = pd+8;
+
+					if (pd+3 < numberOfItems && (f3 < swapF || (SortGScores && f3 == swapF && heap[pd+3].node.G < (swapIndex == parent ? swapItemG : heap[swapIndex].node.G)))) {
+						swapIndex = pd+3;
 					}
 				}
-				
+
 				// One if the parent's children are smaller or equal, swap them
-				if (parent != swapItem) {
-					var tmpIndex = binaryHeap[parent];
-					//tmpIndex.heapIndex = swapItem;//Heap index
-					
-					binaryHeap[parent] = binaryHeap[swapItem];
-					binaryHeap[swapItem] = tmpIndex;
-					
-					//binaryHeap[parent].heapIndex = parent;//Heap index
+				// (actually we are just pretenting we swapped them, we hold the swapData
+				// in local variable and only assign it once we know the final index)
+				if (parent != swapIndex) {
+					heap[parent] = heap[swapIndex];
+#if DECREASE_KEY
+					heap[parent].node.heapIndex = (ushort)parent;
+#endif
 				} else {
 					break;
 				}
-			} while (true);//parent != swapItem);
+			}
 
-			//Validate ();
+			// Assign element to the final position
+			heap[swapIndex] = swapItem;
+#if DECREASE_KEY
+			swapItem.node.heapIndex = (ushort)swapIndex;
+#endif
+
+			// For debugging
+			// Validate ();
 
 			return returnItem;
 		}
 
 		void Validate () {
-			for ( int i = 1; i < numberOfItems; i++ ) {
+			for (int i = 1; i < numberOfItems; i++) {
 				int parentIndex = (i-1)/D;
-				if ( binaryHeap[parentIndex].F > binaryHeap[i].F ) {
-					throw new System.Exception ("Invalid state at " + i + ":" +  parentIndex + " ( " + binaryHeap[parentIndex].F + " > " + binaryHeap[i].F + " ) " );
+				if (heap[parentIndex].F > heap[i].F) {
+					throw new System.Exception("Invalid state at " + i + ":" +  parentIndex + " ( " + heap[parentIndex].F + " > " + heap[i].F + " ) ");
 				}
+#if DECREASE_KEY
+				if (heap[i].node.heapIndex != i) {
+					throw new System.Exception("Invalid heap index");
+				}
+#endif
 			}
 		}
 
-		/** Rebuilds the heap by trickeling down all items.
-		 * Usually called after the hTarget on a path has been changed */
+		/// <summary>
+		/// Rebuilds the heap by trickeling down all items.
+		/// Usually called after the hTarget on a path has been changed
+		/// </summary>
 		public void Rebuild () {
-			
-			for (int i=2;i<numberOfItems;i++) {
+#if ASTARDEBUG
+			int changes = 0;
+#endif
+
+			for (int i = 2; i < numberOfItems; i++) {
 				int bubbleIndex = i;
-				var node = binaryHeap[i];
+				var node = heap[i];
 				uint nodeF = node.F;
 				while (bubbleIndex != 1) {
 					int parentIndex = bubbleIndex / D;
-					
-					if (nodeF < binaryHeap[parentIndex].F) {
-						//Node tmpValue = binaryHeap[parentIndex];
-						binaryHeap[bubbleIndex] = binaryHeap[parentIndex];
-						binaryHeap[parentIndex] = node;
+
+					if (nodeF < heap[parentIndex].F) {
+						heap[bubbleIndex] = heap[parentIndex];
+#if DECREASE_KEY
+						heap[bubbleIndex].node.heapIndex = (ushort)bubbleIndex;
+#endif
+
+						heap[parentIndex] = node;
+#if DECREASE_KEY
+						heap[parentIndex].node.heapIndex = (ushort)parentIndex;
+#endif
+
 						bubbleIndex = parentIndex;
+#if ASTARDEBUG
+						changes++;
+#endif
 					} else {
 						break;
 					}
 				}
-				
 			}
-			
-			
+
+#if ASTARDEBUG
+			UnityEngine.Debug.Log("+++ Rebuilt Heap - "+changes+" changes +++");
+#endif
 		}
 	}
 }
