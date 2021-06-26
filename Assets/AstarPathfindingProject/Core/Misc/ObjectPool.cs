@@ -1,95 +1,131 @@
-//#define ASTAR_NO_POOLING //Disable pooling for some reason. Could be debugging or just for measuring the difference.
-//#define ASTAR_OPTIMIZE_POOLING //Skip some error checking for pooling. Optimizes Release calls to O(1) instead of O(n) where n is the number of objects in the pool.
+#if !UNITY_EDITOR
+// Extra optimizations when not running in the editor, but less error checking
+#define ASTAR_OPTIMIZE_POOLING
+#endif
 
 using System;
 using System.Collections.Generic;
 
-namespace Pathfinding.Util
-{
-	
+namespace Pathfinding.Util {
 	public interface IAstarPooledObject {
 		void OnEnterPool ();
 	}
-	
-	/** Lightweight object Pool.
-	 * Handy class for pooling objects of type T.
-	 * 
-	 * Usage:
-	 * - Claim a new object using \code SomeClass foo = ObjectPool<SomeClass>.Claim (); \endcode
-	 * - Use it and do stuff with it
-	 * - Release it with \code ObjectPool<SomeClass>.Release (foo); \endcode
-	 * 
-	 * After you have released a object, you should never use it again.
-	 * 
-	 * \warning This class is not thread safe
-	 * 
-	 * \since Version 3.2
-	 * \see Pathfinding.Util.ListPool
-	 */
-	public static class ObjectPool<T> where T : class, IAstarPooledObject, new()
-	{
-		/** Internal pool */
-		static List<T> pool;
-		
-		/** Static constructor initializing the internal pool list */
-		static ObjectPool ()
-		{
-			pool = new List<T> ();
-		}
-		
-		/** Claim a object.
-		 * Returns a pooled object if any are in the pool.
-		 * Otherwise it creates a new one.
-		 * After usage, this object should be released using the Release function (though not strictly necessary).
-		 */
+
+	/// <summary>
+	/// Lightweight object Pool for IAstarPooledObject.
+	/// Handy class for pooling objects of type T which implements the IAstarPooledObject interface.
+	///
+	/// Usage:
+	/// - Claim a new object using <code> SomeClass foo = ObjectPool<SomeClass>.Claim (); </code>
+	/// - Use it and do stuff with it
+	/// - Release it with <code> ObjectPool<SomeClass>.Release (foo); </code>
+	///
+	/// After you have released a object, you should never use it again.
+	///
+	/// \since Version 3.2
+	/// Version: Since 3.7.6 this class is thread safe
+	/// See: Pathfinding.Util.ListPool
+	/// See: ObjectPoolSimple
+	/// </summary>
+	public static class ObjectPool<T> where T : class, IAstarPooledObject, new(){
 		public static T Claim () {
-			if (pool.Count > 0) {
-				T ls = pool[pool.Count-1];
-				pool.RemoveAt(pool.Count-1);
-				return ls;
-			} else {
-				return new T ();
+			return ObjectPoolSimple<T>.Claim ();
+		}
+
+		public static void Release (ref T obj) {
+			obj.OnEnterPool();
+			ObjectPoolSimple<T>.Release (ref obj);
+		}
+	}
+
+	/// <summary>
+	/// Lightweight object Pool.
+	/// Handy class for pooling objects of type T.
+	///
+	/// Usage:
+	/// - Claim a new object using <code> SomeClass foo = ObjectPool<SomeClass>.Claim (); </code>
+	/// - Use it and do stuff with it
+	/// - Release it with <code> ObjectPool<SomeClass>.Release (foo); </code>
+	///
+	/// After you have released a object, you should never use it again.
+	///
+	/// \since Version 3.2
+	/// Version: Since 3.7.6 this class is thread safe
+	/// See: Pathfinding.Util.ListPool
+	/// See: ObjectPool
+	/// </summary>
+	public static class ObjectPoolSimple<T> where T : class, new(){
+		/// <summary>Internal pool</summary>
+		static List<T> pool = new List<T>();
+
+#if !ASTAR_NO_POOLING
+		static readonly HashSet<T> inPool = new HashSet<T>();
+#endif
+
+		/// <summary>
+		/// Claim a object.
+		/// Returns a pooled object if any are in the pool.
+		/// Otherwise it creates a new one.
+		/// After usage, this object should be released using the Release function (though not strictly necessary).
+		/// </summary>
+		public static T Claim () {
+#if ASTAR_NO_POOLING
+			return new T();
+#else
+			lock (pool) {
+				if (pool.Count > 0) {
+					T ls = pool[pool.Count-1];
+					pool.RemoveAt(pool.Count-1);
+					inPool.Remove(ls);
+					return ls;
+				} else {
+					return new T();
+				}
+			}
+#endif
+		}
+
+		/// <summary>
+		/// Releases an object.
+		/// After the object has been released it should not be used anymore.
+		/// The variable will be set to null to prevent silly mistakes.
+		///
+		/// \throws System.InvalidOperationException
+		/// Releasing an object when it has already been released will cause an exception to be thrown.
+		/// However enabling ASTAR_OPTIMIZE_POOLING will prevent this check.
+		///
+		/// See: Claim
+		/// </summary>
+		public static void Release (ref T obj) {
+#if !ASTAR_NO_POOLING
+			lock (pool) {
+#if !ASTAR_OPTIMIZE_POOLING
+				if (!inPool.Add(obj)) {
+					throw new InvalidOperationException("You are trying to pool an object twice. Please make sure that you only pool it once.");
+				}
+#endif
+				pool.Add(obj);
+			}
+#endif
+			obj = null;
+		}
+
+		/// <summary>
+		/// Clears the pool for objects of this type.
+		/// This is an O(n) operation, where n is the number of pooled objects.
+		/// </summary>
+		public static void Clear () {
+			lock (pool) {
+#if !ASTAR_OPTIMIZE_POOLING && !ASTAR_NO_POOLING
+				inPool.Clear();
+#endif
+				pool.Clear();
 			}
 		}
-		
-		/** Makes sure the pool contains at least \a count pooled items with capacity \a size.
-		 * This is good if you want to do all allocations at start.
-		 */
-		public static void Warmup (int count) {
-			T[] tmp = new T[count];
-			for (int i=0;i<count;i++) tmp[i] = Claim ();
-			for (int i=0;i<count;i++) Release (tmp[i]);
-		}
-		
-		/** Releases an object.
-		 * After the object has been released it should not be used anymore.
-		 * 
-		 * \throws System.InvalidOperationException
-		 * Releasing an object when it has already been released will cause an exception to be thrown.
-		 * However enabling ASTAR_OPTIMIZE_POOLING will prevent this check, making this function an O(1) operation instead of O(n).
-		 * 
-		 * \see Claim
-		 */
-		public static void Release (T obj) {
-			
-			for (int i=0;i<pool.Count;i++)
-				if (pool[i] == obj)
-					throw new System.InvalidOperationException ("The object is released even though it is in the pool. Are you releasing it twice?");
-			obj.OnEnterPool();
-			pool.Add (obj);
-		}
-		
-		/** Clears the pool for objects of this type.
-		 * This is an O(n) operation, where n is the number of pooled objects.
-		 */
-		public static void Clear () {
-			pool.Clear ();
-		}
-		
-		/** Number of objects of this type in the pool */
+
+		/// <summary>Number of objects of this type in the pool</summary>
 		public static int GetSize () {
 			return pool.Count;
 		}
 	}
 }
-

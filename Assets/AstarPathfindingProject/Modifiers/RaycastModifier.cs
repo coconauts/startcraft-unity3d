@@ -1,221 +1,281 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
-using Pathfinding;
 
 namespace Pathfinding {
-	/** Simplifies a path using raycasting.
-	 * \ingroup modifiers
-	 * This modifier will try to remove as many nodes as possible from the path using raycasting (linecasting) to validate the node removal.
-	 * Either graph raycasts or Physics.Raycast */
-	[AddComponentMenu ("Pathfinding/Modifiers/Raycast Simplifier")]
+	using Pathfinding.Util;
+
+	/// <summary>
+	/// Simplifies a path using raycasting.
+	/// \ingroup modifiers
+	/// This modifier will try to remove as many nodes as possible from the path using raycasting (linecasting) to validate the node removal.
+	/// You can use either graph raycasting or Physics.Raycast.
+	/// When using graph raycasting, the graph will be traversed and checked for obstacles. When physics raycasting is used, the Unity physics system
+	/// will be asked if there are any colliders which intersect the line that is currently being checked.
+	///
+	/// See: https://docs.unity3d.com/ScriptReference/Physics.html
+	/// See: <see cref="Pathfinding.IRaycastableGraph"/>
+	///
+	/// This modifier is primarily intended for grid graphs and layered grid graphs. Though depending on your game it may also be
+	/// useful for point graphs. However note that point graphs do not have any built-in raycasting so you need to use physics raycasting for that graph.
+	///
+	/// For navmesh/recast graphs the <see cref="Pathfinding.FunnelModifier"/> is a much better and faster alternative.
+	///
+	/// On grid graphs you can combine the FunnelModifier with this modifier by simply attaching both of them to a GameObject with a Seeker.
+	/// This may or may not give you better results. It will usually follow the border of the graph more closely when they are both used
+	/// however it more often misses some simplification opportunities.
+	/// When both modifiers are used then the funnel modifier will run first and simplify the path, and then this modifier will take
+	/// the output from the funnel modifier and try to simplify that even more.
+	///
+	/// This modifier has several different quality levels. The highest quality is significantly slower than the
+	/// lowest quality level (10 times slower is not unusual). So make sure you pick the lowest quality that your game can get away with.
+	/// You can use the Unity profiler to see if it takes up any significant amount of time. It will show up under the heading "Running Path Modifiers".
+	///
+	/// [Open online documentation to see images]
+	///
+	/// See: modifiers (view in online documentation for working links)
+	/// </summary>
+	[AddComponentMenu("Pathfinding/Modifiers/Raycast Modifier")]
+	[RequireComponent(typeof(Seeker))]
 	[System.Serializable]
+	[HelpURL("http://arongranberg.com/astar/docs/class_pathfinding_1_1_raycast_modifier.php")]
 	public class RaycastModifier : MonoModifier {
-		
-	#if UNITY_EDITOR
-		[UnityEditor.MenuItem ("CONTEXT/Seeker/Add Raycast Simplifier Modifier")]
+#if UNITY_EDITOR
+		[UnityEditor.MenuItem("CONTEXT/Seeker/Add Raycast Simplifier Modifier")]
 		public static void AddComp (UnityEditor.MenuCommand command) {
-			(command.context as Component).gameObject.AddComponent (typeof(RaycastModifier));
+			(command.context as Component).gameObject.AddComponent(typeof(RaycastModifier));
 		}
-	#endif
-		
-		public override ModifierData input {
-			get { return ModifierData.VectorPath | ModifierData.StrictVectorPath; }
-		}
-		
-		public override ModifierData output {
-			get { return ModifierData.VectorPath; }
-		}
-	
-		[HideInInspector]
+#endif
+
+		public override int Order { get { return 40; } }
+
+		/// <summary>Use Physics.Raycast to simplify the path</summary>
 		public bool useRaycasting = true;
-		[HideInInspector]
+
+		/// <summary>
+		/// Layer mask used for physics raycasting.
+		/// All objects with layers that are included in this mask will be treated as obstacles.
+		/// If you are using a grid graph you usually want this to be the same as the mask in the grid graph's 'Collision Testing' settings.
+		/// </summary>
 		public LayerMask mask = -1;
-		[HideInInspector]
-		public bool thickRaycast = false;
-		[HideInInspector]
-		public float thickRaycastRadius = 0;
-		[HideInInspector]
+
+		/// <summary>
+		/// Checks around the line between two points, not just the exact line.
+		/// Make sure the ground is either too far below or is not inside the mask since otherwise the raycast might always hit the ground.
+		///
+		/// See: https://docs.unity3d.com/ScriptReference/Physics.SphereCast.html
+		/// </summary>
+		[Tooltip("Checks around the line between two points, not just the exact line.\nMake sure the ground is either too far below or is not inside the mask since otherwise the raycast might always hit the ground.")]
+		public bool thickRaycast;
+
+		/// <summary>Distance from the ray which will be checked for colliders</summary>
+		[Tooltip("Distance from the ray which will be checked for colliders")]
+		public float thickRaycastRadius;
+
+		/// <summary>
+		/// Check for intersections with 2D colliders instead of 3D colliders.
+		/// Useful for 2D games.
+		///
+		/// See: https://docs.unity3d.com/ScriptReference/Physics2D.html
+		/// </summary>
+		[Tooltip("Check for intersections with 2D colliders instead of 3D colliders.")]
+		public bool use2DPhysics;
+
+		/// <summary>
+		/// Offset from the original positions to perform the raycast.
+		/// Can be useful to avoid the raycast intersecting the ground or similar things you do not want to it intersect
+		/// </summary>
+		[Tooltip("Offset from the original positions to perform the raycast.\nCan be useful to avoid the raycast intersecting the ground or similar things you do not want to it intersect")]
 		public Vector3 raycastOffset = Vector3.zero;
-		
-		/* Use the exact points used to query the path. If false, the start and end points will be snapped to the node positions.*/
-		//public bool exactStartAndEnd = true;
-		
-		/* Ignore exact start and end points clamped by other modifiers. Other modifiers which modify the start and end points include for example the StartEndModifier. If enabled this modifier will ignore anything that modifier does when calculating the simplification.*/
-		//public bool overrideClampedExacts = false;
-		
-		[HideInInspector]
-		public bool subdivideEveryIter = false;
-		
-		public int iterations = 2;
-		
-		/** Use raycasting on the graphs. Only currently works with GridGraph and NavmeshGraph and RecastGraph. \astarpro */
-		[HideInInspector]
-		public bool useGraphRaycasting = false;
-		
-		/** To avoid too many memory allocations. An array is kept between the checks and filled in with the positions instead of allocating a new one every time.*/
-		private static List<Vector3> nodes;
-		
-		public override void Apply (Path p, ModifierData source) {
-			//System.DateTime startTime = System.DateTime.UtcNow;
-			
-			if (iterations <= 0) {
-				return;
-			}
-			
-			if (nodes == null) {
-				nodes = new List<Vector3> (p.vectorPath.Count);
-			} else {
-				nodes.Clear ();
-			}
-			
-			nodes.AddRange (p.vectorPath);
-			// = new List<Vector3> (p.vectorPath);
-			
-			for (int it=0;it<iterations;it++) {
-				
-				if (subdivideEveryIter && it != 0) {
-					
-					if (nodes.Capacity < nodes.Count*3) {
-						nodes.Capacity = nodes.Count*3;
-					}
-					
-					int preLength = nodes.Count;
-					
-					for (int j=0;j<preLength-1;j++) {
-						nodes.Add (Vector3.zero);
-						nodes.Add (Vector3.zero);
-					}
-					
-					for (int j=preLength-1;j > 0;j--) {
-						
-						Vector3 p1 = nodes[j];
-						Vector3 p2 = nodes[j+1];
-						
-						nodes[j*3] = nodes[j];
-						
-						if (j != preLength-1) {
-							nodes[j*3+1] = Vector3.Lerp (p1,p2,0.33F);
-							nodes[j*3+2] = Vector3.Lerp (p1,p2,0.66F);
-						}
-					}
-				}
-				
-				int i = 0;
-				while (i < nodes.Count-2) {
-					
-					Vector3 start = nodes[i];
-					Vector3 end = nodes[i+2];
-					
-					/*if (i == 0 && exactStartAndEnd) {
-						if (overrideClampedExacts) {
-							start = p.originalStartPoint;
-						} else {
-							start = p.startPoint;
-						}
-					}
-					
-					if (i == nodes.Count-3 && exactStartAndEnd) {
-						if (overrideClampedExacts) {
-							end = p.originalEndPoint;
-						} else {
-							end = p.endPoint;
-						}
-					}*/
-					
-					//if (ValidateLine (nodes[i],nodes[i+2],start,end)) {
-					
-					System.Diagnostics.Stopwatch watch = new System.Diagnostics.Stopwatch ();
-					watch.Start ();
-					
-					if (ValidateLine (null,null,start,end)) {
-						//Debug.Log ("+++ Simplified "+i+" +++");
-						//Debug.DrawLine (start+raycastOffset,end+raycastOffset,new Color (1,0,0.5F));
-						nodes.RemoveAt (i+1);
-						//i++;
-					} else {
-						//Debug.DrawLine (start,end,Color.red);
-						i++;
-					}
-					
-					watch.Stop ();
-					//Debug.Log ("Validate Line Took "+(watch.ElapsedTicks * 0.0001) +" Magnitude: "+(start-end).magnitude);
-				}
-				
-			}
-			
-			//ValidateLine (null,null,nodes[0],nodes[nodes.Count-1]);
-			
-			p.vectorPath.Clear ();
-			p.vectorPath.AddRange (nodes);
-			
-			//System.DateTime endTime2 = System.DateTime.UtcNow;
-			//float theTime2 = (endTime2-startTime).Ticks*0.0001F;
-			
-			//Debug.Log ("Raycast Modifier : Time "+theTime2.ToString ("0.00"));
-			/*p.vectorPath = new Vector3[p.path.Length];
-			for (int i=0;i<p.path.Length;i++) {
-				
-				Vector3 point = p.path[i].position;
-					
-				if (i == 0 && exactStartAndEnd) {
-					if (overrideClampedExacts) {
-						point = p.originalStartPoint;
-					} else {
-						point = p.startPoint;
-					}
-				} else if (i == p.path.Length-1 && exactStartAndEnd) {
-					if (overrideClampedExacts) {
-						point = p.originalEndPoint;
-					} else {
-						point = p.endPoint;
-					}
-				}
-					
-				p.vectorPath[i] = point;
-			}*/
+
+		/// <summary>Use raycasting on the graphs. Only currently works with GridGraph and NavmeshGraph and RecastGraph. </summary>
+		[Tooltip("Use raycasting on the graphs. Only currently works with GridGraph and NavmeshGraph and RecastGraph. This is a pro version feature.")]
+		public bool useGraphRaycasting;
+
+		/// <summary>
+		/// Higher quality modes will try harder to find a shorter path.
+		/// Higher qualities may be significantly slower than low quality.
+		/// [Open online documentation to see images]
+		/// </summary>
+		[Tooltip("When using the high quality mode the script will try harder to find a shorter path. This is significantly slower than the greedy low quality approach.")]
+		public Quality quality = Quality.Medium;
+
+		public enum Quality {
+			/// <summary>One iteration using a greedy algorithm</summary>
+			Low,
+			/// <summary>Two iterations using a greedy algorithm</summary>
+			Medium,
+			/// <summary>One iteration using a dynamic programming algorithm</summary>
+			High,
+			/// <summary>Three iterations using a dynamic programming algorithm</summary>
+			Highest
 		}
-		
-		public bool ValidateLine (GraphNode n1, GraphNode n2, Vector3 v1, Vector3 v2) {
-			
+
+		static readonly int[] iterationsByQuality = new [] { 1, 2, 1, 3 };
+		static List<Vector3> buffer = new List<Vector3>();
+		static float[] DPCosts = new float[16];
+		static int[] DPParents = new int[16];
+
+		public override void Apply (Path p) {
+			if (!useRaycasting && !useGraphRaycasting) return;
+
+			var points = p.vectorPath;
+
+			if (ValidateLine(null, null, p.vectorPath[0], p.vectorPath[p.vectorPath.Count-1])) {
+				// A very common case is that there is a straight line to the target.
+				var s = p.vectorPath[0];
+				var e = p.vectorPath[p.vectorPath.Count-1];
+				points.ClearFast();
+				points.Add(s);
+				points.Add(e);
+			} else {
+				int iterations = iterationsByQuality[(int)quality];
+				for (int it = 0; it < iterations; it++) {
+					if (it != 0) {
+						Polygon.Subdivide(points, buffer, 3);
+						Memory.Swap(ref buffer, ref points);
+						buffer.ClearFast();
+						points.Reverse();
+					}
+
+					points = quality >= Quality.High ? ApplyDP(p, points) : ApplyGreedy(p, points);
+				}
+				if ((iterations % 2) == 0) points.Reverse();
+			}
+
+			p.vectorPath = points;
+		}
+
+		List<Vector3> ApplyGreedy (Path p, List<Vector3> points) {
+			bool canBeOriginalNodes = points.Count == p.path.Count;
+			int startIndex = 0;
+
+			while (startIndex < points.Count) {
+				Vector3 start = points[startIndex];
+				var startNode = canBeOriginalNodes && points[startIndex] == (Vector3)p.path[startIndex].position ? p.path[startIndex] : null;
+				buffer.Add(start);
+
+				// Do a binary search to find the furthest node we can see from this node
+				int mn = 1, mx = 2;
+				while (true) {
+					int endIndex = startIndex + mx;
+					if (endIndex >= points.Count) {
+						mx = points.Count - startIndex;
+						break;
+					}
+					Vector3 end = points[endIndex];
+					var endNode = canBeOriginalNodes && end == (Vector3)p.path[endIndex].position ? p.path[endIndex] : null;
+					if (!ValidateLine(startNode, endNode, start, end)) break;
+					mn = mx;
+					mx *= 2;
+				}
+
+				while (mn + 1 < mx) {
+					int mid = (mn + mx)/2;
+					int endIndex = startIndex + mid;
+					Vector3 end = points[endIndex];
+					var endNode = canBeOriginalNodes && end == (Vector3)p.path[endIndex].position ? p.path[endIndex] : null;
+
+					if (ValidateLine(startNode, endNode, start, end)) {
+						mn = mid;
+					} else {
+						mx = mid;
+					}
+				}
+				startIndex += mn;
+			}
+
+			Memory.Swap(ref buffer, ref points);
+			buffer.ClearFast();
+			return points;
+		}
+
+		List<Vector3> ApplyDP (Path p, List<Vector3> points) {
+			if (DPCosts.Length < points.Count) {
+				DPCosts = new float[points.Count];
+				DPParents = new int[points.Count];
+			}
+			for (int i = 0; i < DPParents.Length; i++) DPCosts[i] = DPParents[i] = -1;
+			bool canBeOriginalNodes = points.Count == p.path.Count;
+
+			for (int i = 0; i < points.Count; i++) {
+				float d = DPCosts[i];
+				Vector3 start = points[i];
+				var startIsOriginalNode = canBeOriginalNodes && start == (Vector3)p.path[i].position;
+				for (int j = i+1; j < points.Count; j++) {
+					// Total distance from the start to this point using the best simplified path
+					// The small additive constant is to make sure that the number of points is kept as small as possible
+					// even when the total distance is the same (which can happen with e.g multiple colinear points).
+					float d2 = d + (points[j] - start).magnitude + 0.0001f;
+					if (DPParents[j] == -1 || d2 < DPCosts[j]) {
+						var endIsOriginalNode = canBeOriginalNodes && points[j] == (Vector3)p.path[j].position;
+						if (j == i+1 || ValidateLine(startIsOriginalNode ? p.path[i] : null, endIsOriginalNode ? p.path[j] : null, start, points[j])) {
+							DPCosts[j] = d2;
+							DPParents[j] = i;
+						} else {
+							break;
+						}
+					}
+				}
+			}
+
+			int c = points.Count - 1;
+			while (c != -1) {
+				buffer.Add(points[c]);
+				c = DPParents[c];
+			}
+			buffer.Reverse();
+			Memory.Swap(ref buffer, ref points);
+			buffer.ClearFast();
+			return points;
+		}
+
+		/// <summary>
+		/// Check if a straight path between v1 and v2 is valid.
+		/// If both n1 and n2 are supplied it is assumed that the line goes from the center of n1 to the center of n2 and a more optimized graph linecast may be done.
+		/// </summary>
+		protected bool ValidateLine (GraphNode n1, GraphNode n2, Vector3 v1, Vector3 v2) {
 			if (useRaycasting) {
-				
-				if (thickRaycast && thickRaycastRadius > 0) {
-					RaycastHit hit;
-					if (Physics.SphereCast (v1+raycastOffset, thickRaycastRadius,v2-v1,out hit, (v2-v1).magnitude,mask)) {
-						//Debug.DrawRay (hit.point,Vector3.up*5,Color.yellow);
+				// Use raycasting to check if a straight path between v1 and v2 is valid
+				if (use2DPhysics) {
+					if (thickRaycast && thickRaycastRadius > 0 && Physics2D.CircleCast(v1 + raycastOffset, thickRaycastRadius, v2 - v1, (v2 - v1).magnitude, mask)) {
+						return false;
+					}
+
+					if (Physics2D.Linecast(v1+raycastOffset, v2+raycastOffset, mask)) {
 						return false;
 					}
 				} else {
-					RaycastHit hit;
-					if (Physics.Linecast (v1+raycastOffset,v2+raycastOffset,out hit, mask)) {
-						//Debug.DrawRay (hit.point,Vector3.up*5,Color.yellow);
+					// Perform a thick raycast (if enabled)
+					if (thickRaycast && thickRaycastRadius > 0 && Physics.SphereCast(new Ray(v1+raycastOffset, v2-v1), thickRaycastRadius, (v2-v1).magnitude, mask)) {
+						return false;
+					}
+
+					// Perform a normal raycast
+					// This is done even if a thick raycast is also done because thick raycasts do not report collisions for
+					// colliders that overlapped the (imaginary) sphere at the origin of the thick raycast.
+					// If this raycast was not done then some obstacles could be missed.
+					if (Physics.Linecast(v1+raycastOffset, v2+raycastOffset, mask)) {
 						return false;
 					}
 				}
 			}
-			
-			if (useGraphRaycasting && n1 == null) {
-				n1 = AstarPath.active.GetNearest (v1).node;
-				n2 = AstarPath.active.GetNearest (v2).node;
-			}
-			
-			if (useGraphRaycasting && n1 != null && n2 != null) {
-				
-				NavGraph graph = AstarData.GetGraph (n1);
-				NavGraph graph2 = AstarData.GetGraph (n2);
-				
-				if (graph != graph2) {
-					return false;
-				}
-				
-				if (graph != null) {
-					IRaycastableGraph rayGraph = graph as IRaycastableGraph;
-					
+
+			if (useGraphRaycasting) {
+				if (n1 == null) n1 = AstarPath.active.GetNearest(v1).node;
+				if (n2 == null) n2 = AstarPath.active.GetNearest(v2).node;
+
+				if (n1 != null && n2 != null) {
+					// Use graph raycasting to check if a straight path between v1 and v2 is valid
+					NavGraph graph = n1.Graph;
+					NavGraph graph2 = n2.Graph;
+
+					if (graph != graph2) {
+						return false;
+					}
+
+					var rayGraph = graph as IRaycastableGraph;
 					if (rayGraph != null) {
-						if (rayGraph.Linecast (v1,v2, n1)) {
-							return false;
-						}
+						return !rayGraph.Linecast(v1, v2, n1);
 					}
 				}
 			}

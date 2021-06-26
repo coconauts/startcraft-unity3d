@@ -1,32 +1,52 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Pathfinding {
-	/** GraphModifier for modifying graphs or processing graph data based on events.
-	 * This class is a simple container for a number of events.
-	 * 
-	 * \warning Some events will be called both in play mode <b>and in editor mode</b> (at least the scan events).
-	 * So make sure your code handles both cases well. You may choose to ignore editor events.
-	 * \see Application.IsPlaying
-	 */
-	public abstract class GraphModifier : MonoBehaviour {
-		
-		/** All active graph modifiers */
+	/// <summary>
+	/// GraphModifier is used for modifying graphs or processing graph data based on events.
+	/// This class is a simple container for a number of events.
+	///
+	/// Warning: Some events will be called both in play mode <b>and in editor mode</b> (at least the scan events).
+	/// So make sure your code handles both cases well. You may choose to ignore editor events.
+	/// See: Application.IsPlaying
+	/// </summary>
+	[ExecuteInEditMode]
+	public abstract class GraphModifier : VersionedMonoBehaviour {
+		/// <summary>All active graph modifiers</summary>
 		private static GraphModifier root;
-		
+
 		private GraphModifier prev;
 		private GraphModifier next;
-		
+
+		/// <summary>Unique persistent ID for this component, used for serialization</summary>
+		[SerializeField]
+		[HideInInspector]
+		protected ulong uniqueID;
+
+		/// <summary>Maps persistent IDs to the component that uses it</summary>
+		protected static Dictionary<ulong, GraphModifier> usedIDs = new Dictionary<ulong, GraphModifier>();
+
+		protected static List<T> GetModifiersOfType<T>() where T : GraphModifier {
+			var current = root;
+			var result = new List<T>();
+
+			while (current != null) {
+				var cast = current as T;
+				if (cast != null) result.Add(cast);
+				current = current.next;
+			}
+			return result;
+		}
+
 		public static void FindAllModifiers () {
-			GraphModifier[] arr = FindObjectsOfType(typeof(GraphModifier)) as GraphModifier[];
-			for (int i=0;i<arr.Length;i++) {
-				arr[i].OnEnable();
+			var allModifiers = FindObjectsOfType(typeof(GraphModifier)) as GraphModifier[];
+
+			for (int i = 0; i < allModifiers.Length; i++) {
+				if (allModifiers[i].enabled) allModifiers[i].OnEnable();
 			}
 		}
-		
-		/** GraphModifier event type.
-		 * \see GraphModifier */
+
+		/// <summary>GraphModifier event type</summary>
 		public enum EventType {
 			PostScan = 1 << 0,
 			PreScan = 1 << 1,
@@ -35,55 +55,78 @@ namespace Pathfinding {
 			PostUpdate = 1 << 4,
 			PostCacheLoad = 1 << 5
 		}
-		
-		/** Triggers an event for all active graph modifiers */
+
+		/// <summary>Triggers an event for all active graph modifiers</summary>
 		public static void TriggerEvent (GraphModifier.EventType type) {
-			
 			if (!Application.isPlaying) {
-				FindAllModifiers ();
+				FindAllModifiers();
 			}
-			
+
 			GraphModifier c = root;
-			switch (type){
+			switch (type) {
 			case EventType.PreScan:
-					while (c != null) { c.OnPreScan(); c = c.next; }
-					break;
+				while (c != null) { c.OnPreScan(); c = c.next; }
+				break;
 			case EventType.PostScan:
-					while (c != null) { c.OnPostScan(); c = c.next; }
-					break;
+				while (c != null) { c.OnPostScan(); c = c.next; }
+				break;
 			case EventType.LatePostScan:
-					while (c != null) { c.OnLatePostScan(); c = c.next; }
-					break;
+				while (c != null) { c.OnLatePostScan(); c = c.next; }
+				break;
 			case EventType.PreUpdate:
-					while (c != null) { c.OnGraphsPreUpdate(); c = c.next; }
-					break;
+				while (c != null) { c.OnGraphsPreUpdate(); c = c.next; }
+				break;
 			case EventType.PostUpdate:
-					while (c != null) { c.OnGraphsPostUpdate(); c = c.next; }
-					break;
+				while (c != null) { c.OnGraphsPostUpdate(); c = c.next; }
+				break;
 			case EventType.PostCacheLoad:
-					while (c != null) { c.OnPostCacheLoad(); c = c.next; }
-					break;
+				while (c != null) { c.OnPostCacheLoad(); c = c.next; }
+				break;
 			}
 		}
-		
-		/** Adds this modifier to list of active modifiers.
-		 */
-		protected virtual void OnEnable () {
-			OnDisable();
 
+		/// <summary>Adds this modifier to list of active modifiers</summary>
+		protected virtual void OnEnable () {
+			RemoveFromLinkedList();
+			AddToLinkedList();
+			ConfigureUniqueID();
+		}
+
+		/// <summary>Removes this modifier from list of active modifiers</summary>
+		protected virtual void OnDisable () {
+			RemoveFromLinkedList();
+		}
+
+		protected override void Awake () {
+			base.Awake();
+			ConfigureUniqueID();
+		}
+
+		void ConfigureUniqueID () {
+			// Check if any other object is using the same uniqueID
+			// In that case this object may have been duplicated
+			GraphModifier usedBy;
+
+			if (usedIDs.TryGetValue(uniqueID, out usedBy) && usedBy != this) {
+				Reset();
+			}
+
+			usedIDs[uniqueID] = this;
+		}
+
+		void AddToLinkedList () {
 			if (root == null) {
 				root = this;
 			} else {
-				this.next = root;
+				next = root;
 				root.prev = this;
 				root = this;
 			}
 		}
-		
-		/** Removes this modifier from list of active modifiers */
-		protected virtual void OnDisable () {
+
+		void RemoveFromLinkedList () {
 			if (root == this) {
-				root = this.next;
+				root = next;
 				if (root != null) root.prev = null;
 			} else {
 				if (prev != null) prev.next = next;
@@ -92,60 +135,70 @@ namespace Pathfinding {
 			prev = null;
 			next = null;
 		}
-		
-		/* Called just before a graph is scanned.
-		  * Note that some other graphs might already be scanned */
-		//public virtual void OnGraphPreScan (NavGraph graph) {}
-		
-		/* Called just after a graph has been scanned.
-		  * Note that some other graphs might not have been scanned at this point. */
-		//public virtual void OnGraphPostScan (NavGraph graph) {}
-		
-		/** Called right after all graphs have been scanned.
-		 * FloodFill and other post processing has not been done.
-		 * 
-		 * \warning Since OnEnable and Awake are called roughly in the same time, the only way
-		 * to ensure that these scripts get this call when scanning in Awake is to
-		 * set the Script Execution Order for AstarPath to some time later than default time
-		 * (see Edit -> Project Settings -> Script Execution Order).
-		 * 
-		 * \see OnLatePostScan
-		 */
+
+		protected virtual void OnDestroy () {
+			usedIDs.Remove(uniqueID);
+		}
+
+		/// <summary>
+		/// Called right after all graphs have been scanned.
+		/// FloodFill and other post processing has not been done.
+		///
+		/// Warning: Since OnEnable and Awake are called roughly in the same time, the only way
+		/// to ensure that these scripts get this call when scanning in Awake is to
+		/// set the Script Execution Order for AstarPath to some time later than default time
+		/// (see Edit -> Project Settings -> Script Execution Order).
+		/// TODO: Is this still relevant? A call to FindAllModifiers should have before this method is called
+		/// so the above warning is probably not relevant anymore.
+		///
+		/// See: OnLatePostScan
+		/// </summary>
 		public virtual void OnPostScan () {}
-		
-		/** Called right before graphs are going to be scanned.
-		 * 
-		 * \warning Since OnEnable and Awake are called roughly in the same time, the only way
-		 * to ensure that these scripts get this call when scanning in Awake is to
-		 * set the Script Execution Order for AstarPath to some time later than default time
-		 * (see Edit -> Project Settings -> Script Execution Order).
-		 * 
-		 * \see OnLatePostScan
-		 * */
+
+		/// <summary>
+		/// Called right before graphs are going to be scanned.
+		///
+		/// Warning: Since OnEnable and Awake are called roughly in the same time, the only way
+		/// to ensure that these scripts get this call when scanning in Awake is to
+		/// set the Script Execution Order for AstarPath to some time later than default time
+		/// (see Edit -> Project Settings -> Script Execution Order).
+		/// TODO: Is this still relevant? A call to FindAllModifiers should have before this method is called
+		/// so the above warning is probably not relevant anymore.
+		///
+		/// See: OnLatePostScan
+		/// </summary>
 		public virtual void OnPreScan () {}
-		
-		/** Called at the end of the scanning procedure.
-		 * This is the absolute last thing done by Scan.
-		 * 
-		 * \note This event will be called even if Script Execution Order has messed things up
-		 * (see the other two scan events).
-		 */
+
+		/// <summary>
+		/// Called at the end of the scanning procedure.
+		/// This is the absolute last thing done by Scan.
+		/// </summary>
 		public virtual void OnLatePostScan () {}
-		
-		/** Called after cached graphs have been loaded.
-		 * When using cached startup, this event is analogous to OnLatePostScan and implementing scripts
-		 * should do roughly the same thing for both events.
-		 * 
-		 * \note This event will be called even if Script Execution Order has messed things up
-		 * (see the other two scan events).
-		 */
+
+		/// <summary>
+		/// Called after cached graphs have been loaded.
+		/// When using cached startup, this event is analogous to OnLatePostScan and implementing scripts
+		/// should do roughly the same thing for both events.
+		/// </summary>
 		public virtual void OnPostCacheLoad () {}
-		
-		/** Called before graphs are updated using GraphUpdateObjects */
+
+		/// <summary>Called before graphs are updated using GraphUpdateObjects</summary>
 		public virtual void OnGraphsPreUpdate () {}
-		
-		/** Called after graphs have been updated using GraphUpdateObjects.
-		  * Eventual flood filling has been done */
+
+		/// <summary>
+		/// Called after graphs have been updated using GraphUpdateObjects.
+		/// Eventual flood filling has been done
+		/// </summary>
 		public virtual void OnGraphsPostUpdate () {}
+
+		protected override void Reset () {
+			base.Reset();
+			// Create a new random 64 bit value (62 bit actually because we skip negative numbers, but that's still enough by a huge margin)
+			var rnd1 = (ulong)Random.Range(0, int.MaxValue);
+			var rnd2 = ((ulong)Random.Range(0, int.MaxValue) << 32);
+
+			uniqueID = rnd1 | rnd2;
+			usedIDs[uniqueID] = this;
+		}
 	}
 }

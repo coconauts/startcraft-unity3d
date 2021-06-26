@@ -1,212 +1,138 @@
-//#define NoTagPenalty		//Enables or disables tag penalties. Can give small performance boost
-
-#if UNITY_4_0 || UNITY_4_1 || UNITY_4_2 || UNITY_3_5 || UNITY_3_4 || UNITY_3_3
-#define UNITY_LE_4_3
-#endif
-
-#if !UNITY_3_5 && !UNITY_3_4 && !UNITY_3_3
-#define UNITY_4
-#endif
-
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
 using System.Collections.Generic;
-using Pathfinding;
 
-[CustomEditor(typeof(Seeker))]
-[RequireComponent(typeof(CharacterController))]
-[RequireComponent(typeof(Seeker))]
-public class SeekerEditor : Editor {
-	
-	public static bool modifiersOpen = false;
-	public static bool tagPenaltiesOpen = false;
-	
-	List<IPathModifier> mods = null;
-	public override void OnInspectorGUI () {
-		DrawDefaultInspector ();
-		
-		Seeker script = target as Seeker;
+namespace Pathfinding {
+	[CustomEditor(typeof(Seeker))]
+	[CanEditMultipleObjects]
+	public class SeekerEditor : EditorBase {
+		static bool tagPenaltiesOpen;
+		static List<Seeker> scripts = new List<Seeker>();
 
-#if !UNITY_LE_4_3
-		Undo.RecordObject ( script, "modify settings on Seeker");
-#endif
+		GUIContent[] exactnessLabels = new [] { new GUIContent("Node Center (Snap To Node)"), new GUIContent("Original"), new GUIContent("Interpolate (deprecated)"), new GUIContent("Closest On Node Surface"), new GUIContent("Node Connection") };
+		string[] graphLabels = new string[32];
 
-		EditorGUILayoutx.SetTagField (new GUIContent ("Valid Tags"),ref script.traversableTags);
+		protected override void Inspector () {
+			base.Inspector();
 
-		EditorGUI.indentLevel=0;
-		tagPenaltiesOpen = EditorGUILayout.Foldout (tagPenaltiesOpen,new GUIContent ("Tag Penalties","Penalties for each tag"));
-		if (tagPenaltiesOpen) {
-			EditorGUI.indentLevel=2;
-			string[] tagNames = AstarPath.FindTagNames ();
-			for (int i=0;i<script.tagPenalties.Length;i++) {
-				int tmp = EditorGUILayout.IntField ((i < tagNames.Length ? tagNames[i] : "Tag "+i),(int)script.tagPenalties[i]);
-				if (tmp < 0) tmp = 0;
-				script.tagPenalties[i] = tmp;
-			}
-			if (GUILayout.Button ("Edit Tag Names...")) {
-				AstarPathEditor.EditTags ();
-			}
-		}
-		EditorGUI.indentLevel=1;
-		
-		//Do some loading and checking
-		if (!AstarPathEditor.stylesLoaded) {
-			if (!AstarPathEditor.LoadStyles ()) {
-				
-				if (AstarPathEditor.upArrow == null) {
-					AstarPathEditor.upArrow = GUI.skin.FindStyle ("Button");
-					AstarPathEditor.downArrow = AstarPathEditor.upArrow;
+			scripts.Clear();
+			foreach (var script in targets) scripts.Add(script as Seeker);
+
+			Undo.RecordObjects(targets, "Modify settings on Seeker");
+
+			var startEndModifierProp = FindProperty("startEndModifier");
+			startEndModifierProp.isExpanded = EditorGUILayout.Foldout(startEndModifierProp.isExpanded, startEndModifierProp.displayName);
+			if (startEndModifierProp.isExpanded) {
+				EditorGUI.indentLevel++;
+				Popup("startEndModifier.exactStartPoint", exactnessLabels, "Start Point Snapping");
+				Popup("startEndModifier.exactEndPoint", exactnessLabels, "End Point Snapping");
+				PropertyField("startEndModifier.addPoints", "Add Points");
+
+				if (FindProperty("startEndModifier.exactStartPoint").enumValueIndex == (int)StartEndModifier.Exactness.Original || FindProperty("startEndModifier.exactEndPoint").enumValueIndex == (int)StartEndModifier.Exactness.Original) {
+					if (PropertyField("startEndModifier.useRaycasting", "Physics Raycasting")) {
+						EditorGUI.indentLevel++;
+						PropertyField("startEndModifier.mask", "Layer Mask");
+						EditorGUI.indentLevel--;
+						EditorGUILayout.HelpBox("Using raycasting to snap the start/end points has largely been superseded by the 'ClosestOnNode' snapping option. It is both faster and usually closer to what you want to achieve.", MessageType.Info);
+					}
+
+					if (PropertyField("startEndModifier.useGraphRaycasting", "Graph Raycasting")) {
+						EditorGUILayout.HelpBox("Using raycasting to snap the start/end points has largely been superseded by the 'ClosestOnNode' snapping option. It is both faster and usually closer to what you want to achieve.", MessageType.Info);
+					}
 				}
-			} else {
-				AstarPathEditor.stylesLoaded = true;
+
+				EditorGUI.indentLevel--;
 			}
-		}
 
-		GUIStyle helpBox = GUI.skin.GetStyle ("helpBox");
+			// Make sure the AstarPath object is initialized and the graphs are loaded, this is required to be able to show graph names in the mask popup
+			AstarPath.FindAstarPath();
 
-
-		if (mods == null) {
-			mods = new List<IPathModifier>(script.GetComponents<MonoModifier>() as IPathModifier[]);
-		} else {
-			mods.Clear ();
-			mods.AddRange (script.GetComponents<MonoModifier>() as IPathModifier[]);
-		}
-		
-		mods.Add (script.startEndModifier as IPathModifier);
-		
-		bool changed = true;
-		while (changed) {
-			changed = false;
-			for (int i=0;i<mods.Count-1;i++) {
-				if (mods[i].Priority < mods[i+1].Priority) {
-					IPathModifier tmp = mods[i+1];
-					mods[i+1] = mods[i];
-					mods[i] = tmp;
-					changed = true;
+			for (int i = 0; i < graphLabels.Length; i++) {
+				if (AstarPath.active == null || AstarPath.active.data.graphs == null || i >= AstarPath.active.data.graphs.Length || AstarPath.active.data.graphs[i] == null) graphLabels[i] = "Graph " + i + (i == 31 ? "+" : "");
+				else {
+					graphLabels[i] = AstarPath.active.data.graphs[i].name + " (graph " + i + ")";
 				}
 			}
-		}
-		
-		for (int i=0;i<mods.Count;i++) {
-			if (mods.Count-i != mods[i].Priority) {
-				mods[i].Priority = mods.Count-i;
-				GUI.changed = true;
-				EditorUtility.SetDirty (target);
-			}
-		}
-		
-		bool modifierErrors = false;
-		
-		IPathModifier prevMod = mods[0];
-		
-		//Loops through all modifiers and checks if there are any errors in converting output between modifiers
-		for (int i=1;i<mods.Count;i++) {
-			MonoModifier monoMod = mods[i] as MonoModifier;
-			if ((prevMod as MonoModifier) != null && !(prevMod as MonoModifier).enabled) {
-				if (monoMod == null || monoMod.enabled) prevMod = mods[i];
-				continue;
-			}
-			
-			if ((monoMod == null || monoMod.enabled) && prevMod != mods[i] && !ModifierConverter.CanConvert (prevMod.output, mods[i].input)) {
-				modifierErrors = true;
-			}
-			
-			if (monoMod == null || monoMod.enabled) {
-				prevMod = mods[i];
-			}
-		}
-		
-		EditorGUI.indentLevel = 0;
-		
-#if UNITY_LE_4_3
-		modifiersOpen = EditorGUILayout.Foldout (modifiersOpen, "Modifiers Priorities"+(modifierErrors ? " - Errors in modifiers!" : ""),EditorStyles.foldout);
-#else
-		modifiersOpen = EditorGUILayout.Foldout (modifiersOpen, "Modifiers Priorities"+(modifierErrors ? " - Errors in modifiers!" : ""));
-#endif
 
-#if UNITY_LE_4_3
-		EditorGUI.indentLevel = 1;
-#endif
+			Mask("graphMask.value", graphLabels, "Traversable Graphs");
 
-		if (modifiersOpen) {
-#if UNITY_LE_4_3
-			EditorGUI.indentLevel+= 2;
-#endif
-
-			//GUILayout.BeginHorizontal ();
-			//GUILayout.Space (28);
-			if (GUILayout.Button ("Modifiers attached to this gameObject are listed here.\nModifiers with a higher priority (higher up in the list) will be executed first.\nClick here for more info",helpBox)) {
-				Application.OpenURL (AstarPathEditor.GetURL ("modifiers"));
-			}
-
-
-			EditorGUILayout.HelpBox ("Original or All can be converted to anything\n" +
-			    "NodePath can be converted to VectorPath\n"+
-				"VectorPath can only be used as VectorPath\n"+
-			    "Vector takes both VectorPath and StrictVectorPath\n"+
-			    "Strict... can be converted to the non-strict variant", MessageType.None );
-			//GUILayout.EndHorizontal ();
-			
-			prevMod = mods[0];
-			
-			for (int i=0;i<mods.Count;i++) {
-				
-				//EditorGUILayout.LabelField (mods[i].GetType ().ToString (),mods[i].Priority.ToString ());
-				MonoModifier monoMod = mods[i] as MonoModifier;
-				
-				Color prevCol = GUI.color;
-				if (monoMod != null && !monoMod.enabled) {
-					GUI.color *= new Color (1,1,1,0.5F);
+			tagPenaltiesOpen = EditorGUILayout.Foldout(tagPenaltiesOpen, new GUIContent("Tags", "Settings for each tag"));
+			if (tagPenaltiesOpen) {
+				string[] tagNames = AstarPath.FindTagNames();
+				EditorGUI.indentLevel++;
+				if (tagNames.Length != 32) {
+					tagNames = new string[32];
+					for (int i = 0; i < tagNames.Length; i++) tagNames[i] = "" + i;
 				}
-				
-				GUILayout.BeginVertical (GUI.skin.box);
-				
-				if (i > 0) {
-					
-					
-					if ((prevMod as MonoModifier) != null && !(prevMod as MonoModifier).enabled) {
-						prevMod = mods[i];
-					} else {
-						
-						if ((monoMod == null || monoMod.enabled) && !ModifierConverter.CanConvert (prevMod.output, mods[i].input)) {
-							//GUILayout.BeginHorizontal ();
-							//GUILayout.Space (28);
-							GUIUtilityx.SetColor (new Color (0.8F,0,0));
-							GUILayout.Label ("Cannot convert "+prevMod.GetType ().Name+"'s output to "+mods[i].GetType ().Name+"'s input\nRearranging the modifiers might help",EditorStyles.whiteMiniLabel);
-							GUIUtilityx.ResetColor ();
-							//GUILayout.EndHorizontal ();
-						}
-						
-						if (monoMod == null || monoMod.enabled) {
-							prevMod = mods[i];
+
+				EditorGUILayout.BeginHorizontal();
+				EditorGUILayout.BeginVertical();
+				EditorGUILayout.LabelField("Tag", EditorStyles.boldLabel, GUILayout.MaxWidth(120));
+				for (int i = 0; i < tagNames.Length; i++) {
+					EditorGUILayout.LabelField(tagNames[i], GUILayout.MaxWidth(120));
+				}
+
+				// Make sure the arrays are all of the correct size
+				for (int i = 0; i < scripts.Count; i++) {
+					if (scripts[i].tagPenalties == null || scripts[i].tagPenalties.Length != tagNames.Length) scripts[i].tagPenalties = new int[tagNames.Length];
+				}
+
+				if (GUILayout.Button("Edit names", EditorStyles.miniButton)) {
+					AstarPathEditor.EditTags();
+				}
+				EditorGUILayout.EndVertical();
+
+#if !ASTAR_NoTagPenalty
+				EditorGUILayout.BeginVertical();
+				EditorGUILayout.LabelField("Penalty", EditorStyles.boldLabel, GUILayout.MaxWidth(100));
+				var prop = FindProperty("tagPenalties").FindPropertyRelative("Array");
+				prop.Next(true);
+				for (int i = 0; i < tagNames.Length; i++) {
+					prop.Next(false);
+					EditorGUILayout.PropertyField(prop, GUIContent.none, false, GUILayout.MinWidth(100));
+					// Penalties should not be negative
+					if (prop.intValue < 0) prop.intValue = 0;
+				}
+				if (GUILayout.Button("Reset all", EditorStyles.miniButton)) {
+					for (int i = 0; i < tagNames.Length; i++) {
+						for (int j = 0; j < scripts.Count; j++) {
+							scripts[j].tagPenalties[i] = 0;
 						}
 					}
 				}
-				
-				GUILayout.Label ("Input: "+mods[i].input,EditorStyles.wordWrappedMiniLabel);
-				int newPrio = EditorGUILayoutx.UpDownArrows (new GUIContent (ObjectNames.NicifyVariableName (mods[i].GetType ().ToString ())),mods[i].Priority, EditorStyles.label, AstarPathEditor.upArrow,AstarPathEditor.downArrow);
-				
-				GUILayout.Label ("Output: "+mods[i].output,EditorStyles.wordWrappedMiniLabel);
-				
-				GUILayout.EndVertical ();
-				
-				int diff = newPrio - mods[i].Priority;
-				
-				if (i > 0 && diff > 0) {
-					mods[i-1].Priority = mods[i].Priority;
-				} else if (i < mods.Count-1 && diff < 0) {
-					mods[i+1].Priority = mods[i].Priority;
-				}
-				
-				mods[i].Priority = newPrio;
-				
-				GUI.color = prevCol;
-			}
-
-#if UNITY_LE_4_3
-			EditorGUI.indentLevel-= 2;
+				EditorGUILayout.EndVertical();
 #endif
+
+				EditorGUILayout.BeginVertical();
+				EditorGUILayout.LabelField("Traversable", EditorStyles.boldLabel, GUILayout.MaxWidth(100));
+				for (int i = 0; i < tagNames.Length; i++) {
+					var anyFalse = false;
+					var anyTrue = false;
+					for (int j = 0; j < scripts.Count; j++) {
+						var prevTraversable = ((scripts[j].traversableTags >> i) & 0x1) != 0;
+						anyTrue |= prevTraversable;
+						anyFalse |= !prevTraversable;
+					}
+					EditorGUI.BeginChangeCheck();
+					EditorGUI.showMixedValue = anyTrue & anyFalse;
+					var newTraversable = EditorGUILayout.Toggle(anyTrue);
+					EditorGUI.showMixedValue = false;
+					if (EditorGUI.EndChangeCheck()) {
+						for (int j = 0; j < scripts.Count; j++) {
+							scripts[j].traversableTags = (scripts[j].traversableTags & ~(1 << i)) | ((newTraversable ? 1 : 0) << i);
+						}
+					}
+				}
+
+				if (GUILayout.Button("Set all/none", EditorStyles.miniButton)) {
+					for (int j = scripts.Count - 1; j >= 0; j--) {
+						scripts[j].traversableTags = (scripts[0].traversableTags & 0x1) == 0 ? -1 : 0;
+					}
+				}
+				EditorGUILayout.EndVertical();
+
+				EditorGUILayout.EndHorizontal();
+			}
 		}
 	}
 }

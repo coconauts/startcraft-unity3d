@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 6ac6694dd977643948f7ae7305e370ba
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
     100002: navmesh_example6navmesh
@@ -20,14 +20,11 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 0
     bakeSimulation: 0
-    optimizeGameObjects: 0
-    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
     animationWrapMode: 0
-    extraExposedTransformPaths: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -55,6 +52,7 @@ ModelImporter:
   humanDescription:
     human: []
     skeleton: []
+    handles: []
     armTwist: .5
     foreArmTwist: .5
     upperLegTwist: .5
@@ -64,6 +62,6 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
   animationType: 1
-  additionalBone: 0
   userData: 

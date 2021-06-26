@@ -2,13 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 3
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Navmesh
   m_Shader: {fileID: 4800000, guid: 6dad35c0b62e44c26ab244ad80deee1a, type: 3}
-  m_ShaderKeywords: []
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -36,12 +39,12 @@ Material:
     m_Floats:
       data:
         first:
-          name: _Shininess
-        second: .699999988
-      data:
-        first:
           name: _Scale
         second: -2.68000007
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
       data:
         first:
           name: _InvFade
@@ -50,7 +53,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .99444443, g: .98888886, b: 1, a: .920000017}
+        second: {r: 1, g: 1, b: 1, a: .550999999}
       data:
         first:
           name: _SpecColor
@@ -66,7 +69,7 @@ Material:
       data:
         first:
           name: _FadeColor
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .656880796, g: .656880796, b: .656880796, a: .448000014}
       data:
         first:
           name: _TintColor
