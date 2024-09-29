@@ -1,86 +1,37 @@
-#if UNITY_4_0 || UNITY_4_1 || UNITY_4_2 || UNITY_3_5 || UNITY_3_4 || UNITY_3_3
-#define UNITY_LE_4_3
-#endif
-
 using UnityEngine;
 using UnityEditor;
-using System.Collections;
-using Pathfinding;
 
 namespace Pathfinding {
-	[CustomGraphEditor (typeof(NavMeshGraph),"NavMeshGraph")]
+	[CustomGraphEditor(typeof(NavMeshGraph), "Navmesh Graph")]
 	public class NavMeshGraphEditor : GraphEditor {
-		
-		//public GameObject meshRenderer;
-		
 		public override void OnInspectorGUI (NavGraph target) {
-			NavMeshGraph graph = target as NavMeshGraph;
-	/*
-	#if UNITY_3_3
-			graph.sourceMesh = EditorGUILayout.ObjectField ("Source Mesh",graph.sourceMesh,typeof(Mesh)) as Mesh;
-	#else
-			graph.sourceMesh = EditorGUILayout.ObjectField ("Source Mesh",graph.sourceMesh,typeof(Mesh), true) as Mesh;
-	#endif
-	*/
-			graph.sourceMesh = ObjectField ("Source Mesh", graph.sourceMesh, typeof(Mesh), false) as Mesh;
-	
-	#if UNITY_LE_4_3
-			EditorGUIUtility.LookLikeControls ();
-			EditorGUILayoutx.BeginIndent ();
-	#endif
-			graph.offset = EditorGUILayout.Vector3Field ("Offset",graph.offset);
-	
-	#if UNITY_LE_4_3
-			EditorGUILayoutx.EndIndent ();
-			
-			EditorGUILayoutx.BeginIndent ();
-	#endif
-			graph.rotation = EditorGUILayout.Vector3Field ("Rotation",graph.rotation);
-	
-	#if UNITY_LE_4_3
-			EditorGUILayoutx.EndIndent ();
-			EditorGUIUtility.LookLikeInspector ();
-	#endif
-	
-			graph.scale = EditorGUILayout.FloatField (new GUIContent ("Scale","Scale of the mesh"),graph.scale);
-			graph.scale = (graph.scale < 0.01F && graph.scale > -0.01F) ? (graph.scale >= 0 ? 0.01F : -0.01F) : graph.scale;
-			
-			graph.accurateNearestNode = EditorGUILayout.Toggle (new GUIContent ("Accurate Nearest Node Queries","More accurate nearest node queries. See docs for more info"),graph.accurateNearestNode);
-		}
-		
-		public override void OnSceneGUI (NavGraph target) {
-			
-			//NavMeshGraph graph = target as NavMeshGraph;
-			
-			/*if (meshRenderer == null) {
-				Debug.Log ("IsNull");
-				meshRenderer = new GameObject ("NavmeshRenderer");
-				meshRenderer.hideFlags = HideFlags.HideAndDontSave;
-				
-				Renderer renderer = meshRenderer.AddComponent (typeof(MeshRenderer)) as Renderer;
-				MeshFilter filter = meshRenderer.AddComponent (typeof(MeshFilter)) as MeshFilter;
-				
-				Mesh mesh = new Mesh ();
-				mesh.vertices = graph.vertices;
-				mesh.triangles = graph.triangles;
-				
-				mesh.RecalculateBounds ();
-				mesh.RecalculateNormals ();
-				
-				filter.mesh = mesh;
-				
-				renderer.material = new Material (Shader.Find ("Transparent/Diffuse"));
-				renderer.material.color = AstarColor.MeshColor;
-			} else {
-				Debug.Log ("Not Null "+meshRenderer.renderer.enabled+" "+meshRenderer.hideFlags);
-				//meshRenderer.transform.position = new Vector3 (0,5,0);//meshRenderer.transform.position+Vector3.up*0.5F;
-				meshRenderer.active = false;
-				meshRenderer.active = true;
-				
-				
-			}*/
-			
-			//DrawAALine (Vector3.zero,Vector3.one*20);
+			var graph = target as NavMeshGraph;
+
+			graph.sourceMesh = ObjectField("Source Mesh", graph.sourceMesh, typeof(Mesh), false) as Mesh;
+
+			graph.offset = EditorGUILayout.Vector3Field("Offset", graph.offset);
+
+			graph.rotation = EditorGUILayout.Vector3Field("Rotation", graph.rotation);
+
+			graph.scale = EditorGUILayout.FloatField(new GUIContent("Scale", "Scale of the mesh"), graph.scale);
+			graph.scale = Mathf.Abs(graph.scale) < 0.01F ? (graph.scale >= 0 ? 0.01F : -0.01F) : graph.scale;
+
+			graph.nearestSearchOnlyXZ = EditorGUILayout.Toggle(new GUIContent("Nearest node queries in XZ space",
+				"Recomended for single-layered environments.\nFaster but can be inaccurate esp. in multilayered contexts."), graph.nearestSearchOnlyXZ);
+
+			if (graph.nearestSearchOnlyXZ && (Mathf.Abs(graph.rotation.x) > 1 || Mathf.Abs(graph.rotation.z) > 1)) {
+				EditorGUILayout.HelpBox("Nearest node queries in XZ space is not recommended for rotated graphs since XZ space no longer corresponds to the ground plane", MessageType.Warning);
+			}
+
+			graph.recalculateNormals = EditorGUILayout.Toggle(new GUIContent("Recalculate Normals", "Disable for spherical graphs or other complicated surfaces that allow the agents to e.g walk on walls or ceilings. See docs for more info."), graph.recalculateNormals);
+			graph.enableNavmeshCutting = EditorGUILayout.Toggle(new GUIContent("Affected by navmesh cuts", "Makes this graph affected by NavmeshCut and NavmeshAdd components. See the documentation for more info."), graph.enableNavmeshCutting);
+
+			GUILayout.BeginHorizontal();
+			GUILayout.Space(18);
+			graph.showMeshSurface = GUILayout.Toggle(graph.showMeshSurface, new GUIContent("Show surface", "Toggles gizmos for drawing the surface of the mesh"), EditorStyles.miniButtonLeft);
+			graph.showMeshOutline = GUILayout.Toggle(graph.showMeshOutline, new GUIContent("Show outline", "Toggles gizmos for drawing an outline of the nodes"), EditorStyles.miniButtonMid);
+			graph.showNodeConnections = GUILayout.Toggle(graph.showNodeConnections, new GUIContent("Show connections", "Toggles gizmos for drawing node connections"), EditorStyles.miniButtonRight);
+			GUILayout.EndHorizontal();
 		}
 	}
 }

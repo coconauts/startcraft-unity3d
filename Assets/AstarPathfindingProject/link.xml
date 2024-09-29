@@ -8,6 +8,11 @@
 			<type fullname="System.ComponentModel.Int64Converter" preserve="all"/>
 			<type fullname="System.ComponentModel.Int32Converter" preserve="all"/>
 			<type fullname="System.ComponentModel.Int16Converter" preserve="all"/>
+			<type fullname="System.ComponentModel.UInt64Converter" preserve="all"/>
+			<type fullname="System.ComponentModel.UInt32Converter" preserve="all"/>
+			<type fullname="System.ComponentModel.UInt16Converter" preserve="all"/>
+			<type fullname="System.ComponentModel.ByteConverter" preserve="all"/>
+			<type fullname="System.ComponentModel.SByteConverter" preserve="all"/>
 			<type fullname="System.ComponentModel.ArrayConverter" preserve="all"/>
 			<type fullname="System.ComponentModel.CollectionConverter" preserve="all"/>
 			<type fullname="System.ComponentModel.DecimalConverter" preserve="all"/>

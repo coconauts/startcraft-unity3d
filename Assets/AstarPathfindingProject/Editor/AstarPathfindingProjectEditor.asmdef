@@ -1,0 +1,13 @@
+{
+    "name": "AstarPathfindingProjectEditor",
+    "references": [
+        "AstarPathfindingProject",
+        "PackageToolsEditor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
